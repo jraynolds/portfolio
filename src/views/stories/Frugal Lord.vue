@@ -1,0 +1,47 @@
+<template>
+    <layout-default title="Frugal Lord">
+        <div class="story">
+            <p>They tried to protect their princess, but it was hopeless. How could they defend her against the Demon Lord, with their puny swords and fragile armor? How could they defend against the wind with shields? How against the cold, with matches?</p>
+
+            <p>They stood lined up in little rows, spears facing forwards, bristling like so many steely porcupines. These were trained and veteran soldiers, chosen specifically because of their outstanding service. And still they wavered, still they shifted from side to side in their metal boots. Why not? To them it was exactly like facing down an enemy nation that had planted its boots directly in their territory. Who had overcome every obstacle thrown their way. Who had even defeated the heavensent warriors prophesied to be able to topple him. In fact, it was worse: it was just one man.</p>
+
+            <p>The princess sat huddled beside her bed, arms wrapped around her knees. Her beautiful golden hair was messy and unkempt, her cheeks stained with dried tears. She bit her lip and squeezed her eyes shut, trying to block out the awful noises that came from outside... and after a moment, it worked. Her royal bedroom was filled with silence. Princess Eilonwy dared to open her eyes--just when her doors swung open. She let out a yelp and cringed back into the side of her bed, wishing she could just disappear. She heard him walking close, and then she felt his touch on her shoulder. Although she'd been expecting claws or perhaps fur, his touch felt human-like. It even felt a little warm. And then vertigo descended on her: her mind spun, her head throbbed and she was no longer at all sure if she was moving or motionless. Her eyes snapped open and Eilonwy stumbled backwards, rising and slapping his hand away. "Monster!" she cried! "I won't let you... oh."<br>
+            Eilonwy blinked her eyes, her vision adjusting to what was suddenly and undeniably not her quarters. Every sense of comfort and kindness had been stripped away: her large, comfortable bed had been replaced by a cot with a moth-eaten blanket. The lush carpets she'd loved to wriggle her toes in had been obliterated completely, and her bare feet now cringed at the feel of the roughly-worked stone floor. There were no paintings of knights and chivalry and unicorns--instead, the only thing that could be said to be decoration were the spiderwebs in the corners. And instead of her beautiful bay windows that overlooked the tournament grounds... now she was treated to a misshapen square cut out of the living rock and beyond it, a drop to crashing waters that surely her fallen body would be utterly consumed by. She was so shocked by the dismal place she'd been brought to that she almost missed the rat poking its head from a crack where the floor met the wall. Underneath their feet a magical circle, glowing with power, faded and disappeared.</p>
+
+            <p>Eilonwy turned, trembling but determined to be strong. The man who'd captured her--a man, not a monster, at least in appearance--had taken off the garish mask with the smiling face he'd worn. Behind it was a surprisingly normal visage of a man who seemed hardly old enough to grow hair on his chin. Although his features were sharp, his expression wasn't unkind: his brown eyes seemed pleasant and the look he gave her almost seemed apologetic. Not that she would fall for his tricks.<br>
+            "Where have you taken me?" she demanded with a trembling voice. "is this to be my prison?" She swept her hand out at the utterly Spartan conditions. "Do you intend to get your revenge against my kingdom by subjecting me to this cruelty?"</p>
+
+            <p>The Demon Lord looked at her with a quizzical expression. "Here? No, I have a room for you nearby you'll be staying in. I did some research on what would be appropriate."</p>
+
+            <p>"Oh." The princess paused, her steam lost. "Why did you bring me to the dungeon first, then?" She glared at him. "To frighten me?" She puffed out her chest, not feeling very brave at all. "Because it won't work."</p>
+
+            <p>"What?" He paused. "No, I wasn't thinking anything like that. It was just convenient--I have a magic circle in my room, so bringing you here was easiest."</p>
+
+            <p>"You..." she paused, trying to come to terms with what she'd just heard. "This is your room?"</p>
+
+            <p>"It is."</p>
+
+            <p>"You live like this?"</p>
+
+            <p>"Yes?"</p>
+
+            <p>He looked at her with a quizzical expression and she began to realize he simply didn't understand. That he thought, somehow, this was normal. "Come on," he beckoned. "I'll show you to your room."</p>
+
+            <p>Eilonwy paused for a moment, then walked unsteadily after him. He was a very different type of person than he'd expected.</p>
+        </div>
+    </layout-default>
+</template>
+
+<script>
+import LayoutDefault from '../../layouts/LayoutDefault.vue';
+
+export default {
+  name: `Frugal_lord`,
+  components: {
+    LayoutDefault,
+  },
+};
+</script>
+
+<style lang="scss">
+</style>
