@@ -54,11 +54,6 @@ const routes = [
     component: () => import(`@/views/stories/Cultist Simulator Cat Caro.vue`)
   },
   {
-    path: `/stories/sad_midna`,
-    name: `sad_midna`,
-    component: () => import(`@/views/stories/Sad Songs Midna.vue`)
-  },
-  {
     path: `/stories/darker_dream`,
     name: `darker_dream`,
     component: () => import(`@/views/stories/Darker than Black I Dream.vue`)
@@ -113,6 +108,26 @@ const routes = [
     path: `/stories/malon_song`,
     name: `malon_song`,
     component: () => import(`@/views/stories/sad songs/Malon Song.vue`)
+  },
+  {
+    path: `/stories/ruto_serenade`,
+    name: `ruto_serenade`,
+    component: () => import(`@/views/stories/sad songs/Ruto Serenade.vue`)
+  },
+  {
+    path: `/stories/nabooru_requiem`,
+    name: `nabooru_requiem`,
+    component: () => import(`@/views/stories/sad songs/Nabooru Requiem.vue`)
+  },
+  {
+    path: `/stories/midna_lament`,
+    name: `midna_lament`,
+    component: () => import(`@/views/stories/sad songs/Midna Lament.vue`)
+  },
+  {
+    path: `/stories/zelda_lullaby`,
+    name: `zelda_lullaby`,
+    component: () => import(`@/views/stories/sad songs/Zelda Lullaby.vue`)
   },
   // Coding
   {

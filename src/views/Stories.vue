@@ -59,7 +59,7 @@ export default {
         },
         {
           title: "Zelda:<br>Sad Songs",
-          image: "https://i.imgur.com/OANxEOR.png",
+          image: "/assets/images/headers/malon.jpg",
           link: "stories/sad_songs",
           excerpt: "Maybe if I'd snared you then, when you were still my Wolfy, you'd still be mine and this world of twilight would be a little less dark.",
           summary: "A series of letters and journal entries written by some of the heroines over the Zelda games, expressing their feelings towards the Hero of Time."
