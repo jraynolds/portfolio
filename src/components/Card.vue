@@ -8,6 +8,7 @@
             </div>
             <div slot="back" class="card__back">
                 <span class="card__summary" v-html="card.summary" @click="click"/>
+                <!-- <router-link :to="card.link" tag="span" class="card__summary" v-html="card.summary" @click="click"/> -->
             </div>
         </vue-flip>
     </router-link>

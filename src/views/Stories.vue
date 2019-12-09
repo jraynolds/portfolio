@@ -48,14 +48,14 @@ export default {
           image: "/assets/images/headers/catcaro.png",
           link: "stories/cultist_caro",
           excerpt: '"Of course I dreamt it," she answered, as if it was perfectly obvious. As if it was perfectly ordinary to dream of a whole day before living it.',
-          summary: "A knife-wielding mercenary and the titular soothsayer explore a rotting house inhabited by a great serpent and a hidden door. These would be impossible obstacles--if Cat Caro hadn't seen it all in her dreams.<br>Characters from Weather Factory's incredible <a href='google.com'>Cultist Simulator</a> game."
+          summary: "A knife-wielding mercenary and the titular soothsayer explore a rotting house inhabited by a great serpent and a hidden door. These would be impossible obstacles--if Cat Caro hadn't seen it all in her dreams.<br>Characters from <a href='http://weatherfactory.biz/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game."
         },
         {
           title: "Darker than Black:<br>I Dream",
           image: "/assets/images/headers/yin.png",
           link: "stories/darker_dream",
           excerpt: 'A doll is not supposed to dream; this is common knowledge and I never found any reason to doubt it until I met Hei.',
-          summary: 'The blind Doll Yin hesitates as she "watches" her companion Hei sleep, conflicted by her feelings for him. For after all, Dolls do not feel. Do they?<br>Characters from the <a class="helpme" href="">Darker than Black</a> Anime.'
+          summary: 'The blind Doll Yin hesitates as she "watches" her companion Hei sleep, conflicted by her feelings for him. For after all, Dolls do not feel. Do they?<br>Characters from the <a href="https://en.wikipedia.org/wiki/Darker_than_Black">Darker than Black</a> Anime.'
         },
         {
           title: "Zelda:<br>Sad Songs",

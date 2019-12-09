@@ -140,6 +140,16 @@ const routes = [
     name: `fractal_generator`,
     component: () => import(`@/views/coding/Fractal Tree Generator.vue`),
   },
+  {
+    path: `/coding/ping_graph`,
+    name: `ping_graph`,
+    component: () => import(`@/views/coding/Ping Graph.vue`),
+  },
+  {
+    path: `/coding/timeliner`,
+    name: `timeliner`,
+    component: () => import(`@/views/coding/Timeliner.vue`),
+  },
 ]
 
 const router = new VueRouter({

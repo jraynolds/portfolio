@@ -102,8 +102,8 @@ h1, h2, h3, h4 {
         color: gray;
 
         &__title {
-            margin-top: 2em;
-            margin-bottom: 2em;       
+            // margin-top: 2em;
+            // margin-bottom: 2em;       
 
             text-align: center;
             font-size: xx-large;
@@ -134,6 +134,7 @@ h1, h2, h3, h4 {
             }
 
             h3 {
+                margin-top: 0px;
                 margin-bottom: 20px;
             }
 
@@ -144,6 +145,13 @@ h1, h2, h3, h4 {
 
                 margin-right: -20px;
                 margin-bottom: -20px;
+            }
+
+            .article img {
+                margin-left: auto;
+                margin-right: auto;
+                
+                width: fit-content;
             }
         }
     }
