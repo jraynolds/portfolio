@@ -150,6 +150,22 @@ const routes = [
     name: `timeliner`,
     component: () => import(`@/views/coding/Timeliner.vue`),
   },
+  // Games
+  {
+    path: `/games`,
+    name: `games`,
+    component: () => import(`@/views/Games.vue`),
+  },
+  {
+    path: `/games/hrp`,
+    name: `hrp`,
+    component: () => import(`@/views/games/HRP.vue`),
+  },
+  {
+    path: `/games/dragons_teeth`,
+    name: `dragons_teeth`,
+    component: () => import(`@/views/games/Dragon's Teeth.vue`),
+  },
 ]
 
 const router = new VueRouter({

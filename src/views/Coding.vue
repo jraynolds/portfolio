@@ -11,7 +11,7 @@
 
 			</div>
       
-      <h3>For more, come visit my <a href="">github!</a></h3>
+      <h3>For more, come visit my <a href="https://github.com/jraynolds">github!</a></h3>
 
     </div>
   </layout-default>
