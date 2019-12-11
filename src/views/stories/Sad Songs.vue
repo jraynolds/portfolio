@@ -1,22 +1,18 @@
 <template>
-    <layout-default title="Sad Songs: Zelda">
-        <div class="songs">
-            <h3 style="font-style: italic; text-align: center;">These are vignettes from the perspectives of leading girls from video game franchise Legend of Zelda.</h3>
-            <div id="songs" class="cardContainer">
-                <card :card=song v-for="song in songs" v-bind:key="song.id"></card>
-            </div>
-        </div>
-    </layout-default>
+  <div class="songs">
+    <h3 style="font-style: italic; text-align: center;">These are vignettes from the perspectives of leading girls from video game franchise Legend of Zelda.</h3>
+    <div id="songs" class="cardContainer">
+        <card :card=song v-for="song in songs" v-bind:key="song.id"></card>
+    </div>
+  </div>
 </template>
 
 <script>
-import LayoutDefault from '@/layouts/LayoutDefault.vue';
 import Card from "@/components/Card.vue";
 
 export default {
   name: `sad_songs`,
   components: {
-    LayoutDefault,
     Card
   },
   data: function() {

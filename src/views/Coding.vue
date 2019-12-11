@@ -1,30 +1,26 @@
 <template>
-  <layout-default title="Coding" nav="coding">
-    <div class="coding">
-      <h2>I specialize in Java-based languages:</h2>
-			<h3><em><span class="java codelang">Java</span>, <span class="js codelang">Javascript</span>, <span class="csharp codelang">C#</span>, as well as <span class="python codelang">python</span> and <span class="p5 codelang">p5</span>.<br>This website is coded in <span class="vue codelang">Vue</span>!</em></h3>
-      <h3><em>Here are some individual projects I'm particularly proud of.</em></h3>
+  <div class="coding">
+    <h2>I specialize in Java-based languages:</h2>
+    <h3><em><span class="java codelang">Java</span>, <span class="js codelang">Javascript</span>, <span class="csharp codelang">C#</span>, as well as <span class="python codelang">python</span> and <span class="p5 codelang">p5</span>.<br>This website is coded in <span class="vue codelang">Vue</span>!</em></h3>
+    <h3><em>Here are some individual projects I'm particularly proud of.</em></h3>
 
-      <div id="finalized" class="cardContainer" style="margin-bottom: 10px;">
+    <div id="finalized" class="cardContainer" style="margin-bottom: 10px;">
 
-        <card :card=code v-for="code in codes" v-bind:key="code.id"></card>
-
-			</div>
-      
-      <h3>For more, come visit my <a href="https://github.com/jraynolds">github!</a></h3>
+      <card :card=code v-for="code in codes" v-bind:key="code.id"></card>
 
     </div>
-  </layout-default>
+    
+    <h3>For more, come visit my <a href="https://github.com/jraynolds">github!</a></h3>
+
+  </div>
 </template>
 
 <script>
-import LayoutDefault from '../layouts/LayoutDefault.vue';
 import Card from "../components/Card.vue";
 
 export default {
   name: `coding`,
   components: {
-    LayoutDefault,
     Card
   },
   data: function() {

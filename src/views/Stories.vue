@@ -1,36 +1,25 @@
 <template>
-  <layout-default title="Stories">
-    <div class="stories">
-      <h2 style="text-align: center;">Finalized</h2>
-			<h3 style="font-style: italic; text-align: center;">These are stories that have a certain amount of polish.<br>Some are wholly my own and some are inspired by others.</h3>
-
-      <div id="finalized" class="cardContainer">
-
-        <card :card=finish v-for="finish in finished" v-bind:key="finish.id"></card>
-
-			</div>
-
-      <h2 style="text-align: center;">Hooks</h2>
-			<h3 style="font-style: italic; text-align: center;">These are stories that are yet to be.<br>Perhaps some will catch your fancy--and maybe some will get finished one day.</h3>
-
-      <div id="hooks" class="cardContainer">
-
-        <card :card=hook v-for="hook in hooks" v-bind:key="hook.id"></card>
-
-			</div>
-      
+  <div class="stories">
+    <h2 style="text-align: center;">Finalized</h2>
+    <h3 style="font-style: italic; text-align: center;">These are stories that have a certain amount of polish.<br>Some are wholly my own and some are inspired by others.</h3>
+    <div id="finalized" class="cardContainer">
+      <card :card=finish v-for="finish in finished" v-bind:key="finish.id"></card>
     </div>
-  </layout-default>
+
+    <h2 style="text-align: center;">Hooks</h2>
+    <h3 style="font-style: italic; text-align: center;">These are stories that are yet to be.<br>Perhaps some will catch your fancy--and maybe some will get finished one day.</h3>
+    <div id="hooks" class="cardContainer">
+      <card :card=hook v-for="hook in hooks" v-bind:key="hook.id"></card>
+    </div>
+  </div>
 </template>
 
 <script>
-import LayoutDefault from '../layouts/LayoutDefault.vue';
-import Card from "../components/Card.vue";
+import Card from "@/components/Card.vue";
 
 export default {
   name: `stories`,
   components: {
-    LayoutDefault,
     Card
   },
   data: function() {

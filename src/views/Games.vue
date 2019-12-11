@@ -1,29 +1,25 @@
 <template>
-  <layout-default title="Games">
-    <div class="games">
-        <h2 style="text-align: center;">Current Projects</h2>
-        <h3 style="font-style: italic; text-align: center;">These are ongoing games in the middle of production.</h3>
-        <div id="current" class="cardContainer">
-            <card :card=going v-for="going in ongoing" v-bind:key="going.id"></card>
-        </div>
+  <div class="games">
+      <h2 style="text-align: center;">Current Projects</h2>
+      <h3 style="font-style: italic; text-align: center;">These are ongoing games in the middle of production.</h3>
+      <div id="current" class="cardContainer">
+          <card :card=going v-for="going in ongoing" v-bind:key="going.id"></card>
+      </div>
 
-        <h2 style="text-align: center;">Future Projects</h2>
-        <h3 style="font-style: italic; text-align: center;">These are games as of yet merely planned to be made.</h3>
-        <div id="future" class="cardContainer">
-            <card :card=future v-for="future in futures" v-bind:key="future.id"></card>
-        </div>
-    </div>
-  </layout-default>
+      <h2 style="text-align: center;">Future Projects</h2>
+      <h3 style="font-style: italic; text-align: center;">These are games as of yet merely planned to be made.</h3>
+      <div id="future" class="cardContainer">
+          <card :card=future v-for="future in futures" v-bind:key="future.id"></card>
+      </div>
+  </div>
 </template>
 
 <script>
-import LayoutDefault from '../layouts/LayoutDefault.vue';
 import Card from "../components/Card.vue";
 
 export default {
   name: `stories`,
   components: {
-    LayoutDefault,
     Card
   },
   data: function() {

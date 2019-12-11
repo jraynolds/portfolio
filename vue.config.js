@@ -1,10 +1,10 @@
-// module.exports = {
-//     css: {
-//         loaderOptions: {
-//             sass: {
-//                 data: `@import "@/scss/_variables.scss`,
-//             }
-//         },
-//         sourceMap: true
-//     }
-// };
+module.exports = {
+    // css: {
+    //     loaderOptions: {
+    //         sass: {
+    //             data: `@import "@/scss/_variables.scss`,
+    //         }
+    //     },
+    //     sourceMap: true
+    // }
+};
