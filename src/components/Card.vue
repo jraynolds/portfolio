@@ -1,18 +1,31 @@
 <template>
-    <router-link :to="card.link" tag="div" class="place">
-        <vue-flip :active-hover="true" width="100%" height="100%" class="card">
-            <div slot="front" class="card__front">
-                <div class="card__image" v-bind:style="{ backgroundImage: 'url(' + card.image + ')' }"></div>
-                <span class="card__title" v-html="card.title"/>
-                <span class="card__excerpt" v-html="card.excerpt"/>
-            </div>
-            <div slot="back" class="card__back">
-                <span class="card__summary" v-html="card.summary" @click="click"/>
-                <!-- <span class="card__summary" v-html="card.summary"/> -->
-                <!-- <router-link :to="card.link" tag="span" class="card__summary" v-html="card.summary" @click="click"/> -->
-            </div>
-        </vue-flip>
-    </router-link>
+    <div class="holder">
+        <div v-if="!card.link" class="place">
+            <vue-flip :active-hover="true" width="100%" height="100%" class="card">
+                <div slot="front" class="card__front">
+                    <div v-if="card.image != null" class="card__image" v-bind:style="{ backgroundImage: 'url(' + card.image + ')' }"></div>
+                    <span v-if="card.title != null" class="card__title" v-html="card.title"/>
+                    <span v-if="card.excerpt != null" class="card__excerpt" v-html="card.excerpt" @click="wrapperClick"/>
+                </div>
+                <div slot="back" class="card__back">
+                    <div v-if="card.reverseImage != null" class="card__image" v-bind:style="{ backgroundImage: 'url(' + card.reverseImage + ')' }"></div>
+                    <span class="card__summary" v-if="card.summary" v-html="card.summary" @click="wrapperClick"/>
+                </div>
+            </vue-flip>
+        </div>
+        <router-link v-if="card.link" :to="card.link" tag="div" class="place">
+            <vue-flip :active-hover="true" width="100%" height="100%" class="card">
+                <div slot="front" class="card__front">
+                    <div v-if="card.image" class="card__image" v-bind:style="{ backgroundImage: 'url(' + card.image + ')' }"></div>
+                    <span v-if="card.title" class="card__title" v-html="card.title"/>
+                    <span v-if="card.excerpt" class="card__excerpt" v-html="card.excerpt" @click="wrapperClick"/>
+                </div>
+                <div slot="back" class="card__back">
+                    <span class="card__summary" v-html="card.summary" @click="wrapperClick"/>
+                </div>
+            </vue-flip>
+        </router-link>
+    </div>
 </template>
 
 <script>
@@ -29,8 +42,8 @@ export default {
         VueFlip
     },
     methods: {
-        click(e) {
-            e.stopPropagation();
+        wrapperClick(e) {
+            if (e.target.tagName == "A") e.stopPropagation();
         }
     }
 }

@@ -12,7 +12,7 @@
         </div>
         <div class="nav__right">
             <router-link to="/about" tag="div" id="nav_about">About</router-link>
-            <div id="nav_social">[][][]</div>
+            <div id="nav_social"><a href="https://twitter.com/jasper_raynolds"><img src="/assets/images/icons/twitter.png"/></a></div>
             <router-link to="/extras" tag="div" id="nav_extras">Extras</router-link>
         </div>
     </nav>
@@ -96,6 +96,17 @@ export default {
         &:hover {
             background-color: #ffc367 !important;
         }
+    }
+
+    #nav_social img {
+        transition: filter 1s;
+        height: 40px;
+        margin-bottom:-10px;
+        filter: grayscale(100%)
+    }
+
+    #nav_social:hover img {
+        filter: grayscale(0%) saturate(100) hue-rotate(235deg);
     }
 
     .router-link-active {

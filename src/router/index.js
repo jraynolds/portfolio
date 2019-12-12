@@ -62,7 +62,7 @@ const routes = [
     name: `cultist_caro`,
     component: () => import(`@/views/stories/Cultist Simulator Cat Caro.vue`),
     meta: {
-      title: 'Cat Caro'
+      title: 'Cultist Simulator: Cat Caro'
     }
   },
   {
@@ -70,7 +70,7 @@ const routes = [
     name: `darker_dream`,
     component: () => import(`@/views/stories/Darker than Black I Dream.vue`),
     meta: {
-      title: 'American Disbelief'
+      title: 'Darker than Black: I Dream'
     }
   },
   {
@@ -242,6 +242,22 @@ const routes = [
     component: () => import(`@/views/games/Dragon's Teeth.vue`),
     meta: {
       title: 'Dragon\'s Teeth'
+    }
+  },
+  {
+    path: '/about',
+    name: 'about',
+    component: () => import(`@/views/About.vue`),
+    meta: {
+      title: 'Who am I?'
+    }
+  },
+  {
+    path: '/extras',
+    name: 'extras',
+    component: () => import(`@/views/Extras.vue`),
+    meta: {
+      title: 'Something additional.'
     }
   },
 ]
