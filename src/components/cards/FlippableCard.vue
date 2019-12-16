@@ -50,11 +50,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../scss/_variables.scss";
+@import "@/scss/_variables.scss";
 
 @font-face {
     font-family: "BluuNext-Bold";
-    src: url("../assets/fonts/bluunext-bold.ttf") format("ttf");
+    src: url("../../assets/fonts/bluunext-bold.ttf") format("ttf");
 }
 
 .place {

@@ -1,19 +1,19 @@
 <template>
 	<div id="app">
 		<Navbar/>
-		<div class="main">
+		<div id="main">
 			<transition name="slide-fade" mode="out-in">
-				<div class="title" :key="pageTitle">
-					<h1>{{ pageTitle }}</h1>
+				<div id="title" :key="pageTitle">
+					<h1 v-if="pageTitle">{{ pageTitle }}</h1>
+					<h2 v-if="pageSubTitle">{{ pageSubTitle }}</h2>
 				</div>
 			</transition>
-			<main class="content">
+			<main id="content">
 				<transition name="fade" mode="out-in">
 					<router-view/>
 				</transition>
 			</main>
 		</div>
-		<div class="LayoutDefault__spacer"></div>
 		<Foot/>
 	</div>
 </template>
@@ -37,6 +37,9 @@ export default {
 	computed: {
 		pageTitle: function() {
 			return this.$route.meta.title;
+		},
+		pageSubTitle: function() {
+			return this.$route.meta.subtitle;
 		}
 	}
 }
@@ -51,7 +54,6 @@ export default {
 	transition-property: opacity;
 	transition-timing-function: ease;
 }
-
 .fade-enter,
 .fade-leave-active {
 	opacity: 0
@@ -102,7 +104,7 @@ h1, h2, h3, h4 {
 	min-height: 100vh;
 }
 
-.main {
+#main {
 	margin-left: auto;
 	margin-right: auto;
 	min-width: 60vw;
@@ -115,14 +117,14 @@ h1, h2, h3, h4 {
 	color: gray;
 }
 
-.title {
+#title {
 	text-align: center;
 	font-size: xx-large;
 
 	color: $highlight-color;
 }
 
-.content {
+#content {
 	margin-bottom: 3em;
 	margin-left: 2em;
 	margin-right: 2em;
@@ -130,6 +132,8 @@ h1, h2, h3, h4 {
 	padding-bottom: 10px;
 
 	display: flex;
+	justify-content: center;
+	align-items: center;
 
 	background-color: black;
 	box-shadow: 0 10px 10px 20px black;

@@ -2,30 +2,6 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '@/views/Home.vue'
 
-// const Home = () => import('./views/Home.vue');
-// const About = () => import(`./views/About.vue`);
-// const Stories = () => import(`./views/Stories.vue`);
-// const Coding = () => import(`./views/Coding.vue`);
-
-// // stories
-// const American_disbelief = () => import(`./views/stories/American Sunset Disbelief.vue`);
-// const Cultist_caro = () => import(`./views/stories/Cultist Simulator Cat Caro.vue`);
-// const Sad_midna = () => import(`./views/stories/Sad Songs Midna.vue`);
-// const Darker_dream = () => import(`./views/stories/Darker than Black I Dream.vue`);
-// const Death_escape = () => import(`./views/stories/Death is No Escape.vue`);
-// const Did_heaven = () => import(`./views/stories/Did it Hurt When you Fell From Heaven.vue`);
-// const Heracles = () => import(`./views/stories/Heracles.vue`);
-// const Max_noir = () => import(`./views/stories/Max Hard Noir.vue`);
-// const Frugal_lord = () => import(`./views/stories/Frugal Lord.vue`);
-// const Tinker_spellcaster = () => import(`./views/stories/Tinker, Spellcaster.vue`);
-// const Isekai_delivery = () => import(`./views/stories/Isekai Slave Delivery.vue`);
-
-// const Sad_songs = () => import(`./views/stories/Sad Songs.vue`);
-// const Saria_minuet = () => import(`./views/stories/sad songs/Saria Minuet.vue`);
-
-// // coding
-// const Fractal_generator = () => import(`./views/coding/Fractal Tree Generator.vue`);
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -34,7 +10,7 @@ const routes = [
     name: 'home',
     component: Home,
     meta: {
-      title: 'For we are, aren\'t we?'
+      title: 'We are all, all of us, the same.'
     }
   },
   // Stories

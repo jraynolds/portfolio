@@ -1,26 +1,30 @@
 <template>
   <div class="games">
+    <div class="module">
       <h2 style="text-align: center;">Current Projects</h2>
       <h3 style="font-style: italic; text-align: center;">These are ongoing games in the middle of production.</h3>
       <div id="current" class="cardContainer">
-          <card :card=going v-for="going in ongoing" v-bind:key="going.id"></card>
+          <FlippableCard :card=going v-for="going in ongoing" v-bind:key="going.id"/>
       </div>
+    </div>
 
+    <div class="module">
       <h2 style="text-align: center;">Future Projects</h2>
       <h3 style="font-style: italic; text-align: center;">These are games as of yet merely planned to be made.</h3>
       <div id="future" class="cardContainer">
-          <card :card=future v-for="future in futures" v-bind:key="future.id"></card>
+          <FlippableCard :card=future v-for="future in futures" v-bind:key="future.id"/>
       </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Card from "../components/Card.vue";
+import FlippableCard from "../components/cards/FlippableCard.vue";
 
 export default {
   name: `stories`,
   components: {
-    Card
+    FlippableCard
   },
   data: function() {
     return {
@@ -48,5 +52,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.games {
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
+.module {
+  margin-bottom: 20px;
+}
 </style>

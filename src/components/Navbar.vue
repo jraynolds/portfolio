@@ -12,7 +12,7 @@
         </div>
         <div class="nav__right">
             <router-link to="/about" tag="div" id="nav_about">About</router-link>
-            <div id="nav_social"><a href="https://twitter.com/jasper_raynolds"><img src="/assets/images/icons/twitter.png"/></a></div>
+            <div id="nav_social" onclick="location.href='https://twitter.com/jasper_raynolds'"><img src="/assets/images/icons/twitter.png"/></div>
             <router-link to="/extras" tag="div" id="nav_extras">Extras</router-link>
         </div>
     </nav>
@@ -101,7 +101,6 @@ export default {
     #nav_social img {
         transition: filter 1s;
         height: 40px;
-        margin-bottom:-10px;
         filter: grayscale(100%)
     }
 

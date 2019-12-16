@@ -6,7 +6,7 @@
 
     <div id="finalized" class="cardContainer" style="margin-bottom: 10px;">
 
-      <card :card=code v-for="code in codes" v-bind:key="code.id"></card>
+      <FlippableCard :card=code v-for="code in codes" v-bind:key="code.id"/>
 
     </div>
     
@@ -16,12 +16,12 @@
 </template>
 
 <script>
-import Card from "../components/Card.vue";
+import FlippableCard from "../components/cards/FlippableCard.vue";
 
 export default {
   name: `coding`,
   components: {
-    Card
+    FlippableCard
   },
   data: function() {
     return {

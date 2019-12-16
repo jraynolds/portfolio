@@ -3,24 +3,24 @@
     <h2 style="text-align: center;">Finalized</h2>
     <h3 style="font-style: italic; text-align: center;">These are stories that have a certain amount of polish.<br>Some are wholly my own and some are inspired by others.</h3>
     <div id="finalized" class="cardContainer">
-      <card :card=finish v-for="finish in finished" v-bind:key="finish.id"></card>
+      <FlippableCard :card=finish v-for="finish in finished" v-bind:key="finish.id"/>
     </div>
 
     <h2 style="text-align: center;">Hooks</h2>
     <h3 style="font-style: italic; text-align: center;">These are stories that are yet to be.<br>Perhaps some will catch your fancy--and maybe some will get finished one day.</h3>
     <div id="hooks" class="cardContainer">
-      <card :card=hook v-for="hook in hooks" v-bind:key="hook.id"></card>
+      <FlippableCard :card=hook v-for="hook in hooks" v-bind:key="hook.id"/>
     </div>
   </div>
 </template>
 
 <script>
-import Card from "@/components/Card.vue";
+import FlippableCard from "@/components/cards/FlippableCard.vue";
 
 export default {
   name: `stories`,
   components: {
-    Card
+    FlippableCard
   },
   data: function() {
     return {
@@ -40,19 +40,19 @@ export default {
           summary: "A knife-wielding mercenary and the titular soothsayer explore a rotting house inhabited by a great serpent and a hidden door. These would be impossible obstacles--if Cat Caro hadn't seen it all in her dreams.<br>Characters from <a href='http://weatherfactory.biz/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game."
         },
         {
-          title: "Darker than Black:<br>I Dream",
-          image: "/assets/images/headers/yin.png",
-          link: "stories/darker_dream",
-          excerpt: 'A doll is not supposed to dream; this is common knowledge and I never found any reason to doubt it until I met Hei.',
-          summary: 'The blind Doll Yin hesitates as she "watches" her companion Hei sleep, conflicted by her feelings for him. For after all, Dolls do not feel. Do they?<br>Characters from the <a href="https://en.wikipedia.org/wiki/Darker_than_Black">Darker than Black</a> Anime.'
-        },
-        {
           title: "Zelda:<br>Sad Songs",
           image: "/assets/images/headers/malon.jpg",
           link: "stories/sad_songs",
           excerpt: "Maybe if I'd snared you then, when you were still my Wolfy, you'd still be mine and this world of twilight would be a little less dark.",
           summary: "A series of letters and journal entries written by some of the heroines over the Zelda games, expressing their feelings towards the Hero of Time."
         },
+        {
+          title: "Darker than Black:<br>I Dream",
+          image: "/assets/images/headers/yin.png",
+          link: "stories/darker_dream",
+          excerpt: 'A doll is not supposed to dream; this is common knowledge and I never found any reason to doubt it until I met Hei.',
+          summary: 'The blind Doll Yin hesitates as she "watches" her companion Hei sleep, conflicted by her feelings for him. For after all, Dolls do not feel. Do they?<br>Characters from the <a href="https://en.wikipedia.org/wiki/Darker_than_Black">Darker than Black</a> Anime.'
+        }
       ],
       hooks: [
         {

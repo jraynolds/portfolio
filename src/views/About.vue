@@ -2,7 +2,7 @@
     <div class="about">
         <div class="avatar">
             <div id="aboutCard" class="cardContainer">
-                <Card :card=aboutCard v-bind="aboutCard.id"/>
+                <FlippableCard :card=aboutCard v-bind="aboutCard.id"/>
             </div>
         </div>
         <div class="writeup">
@@ -14,19 +14,19 @@
 </template>
 
 <script>
-import Card from "@/components/Card.vue";
+import FlippableCard from "@/components/cards/FlippableCard.vue";
 
 export default {
     name: `about`,
     components: {
-        Card
+        FlippableCard
     },
     data: function() {
         return {
         aboutCard: 
             {
-            image: "/assets/images/headers/catcaro.png",
-            reverseImage: "/assets/images/headers/americanwest.jpg"
+            image: "/assets/images/about.jpg",
+            reverseImage: "/assets/images/aboutReverse.png"
             }
         }
     }
@@ -39,7 +39,7 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: row !important;
 
     & .avatar, & .writeup {
         max-width: 500px;
@@ -47,6 +47,10 @@ export default {
     }
 
     h3 {
+        margin-top: 20px;
+    }
+
+    .writeup {
         margin-top: 20px;
     }
 }

@@ -2,18 +2,18 @@
   <div class="songs">
     <h3 style="font-style: italic; text-align: center;">These are vignettes from the perspectives of leading girls from video game franchise Legend of Zelda.</h3>
     <div id="songs" class="cardContainer">
-        <card :card=song v-for="song in songs" v-bind:key="song.id"></card>
+        <FlippableCard :card=song v-for="song in songs" v-bind:key="song.id"/>
     </div>
   </div>
 </template>
 
 <script>
-import Card from "@/components/Card.vue";
+import FlippableCard from "@/components/cards/FlippableCard.vue";
 
 export default {
   name: `sad_songs`,
   components: {
-    Card
+    FlippableCard
   },
   data: function() {
     return {
