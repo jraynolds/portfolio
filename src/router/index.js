@@ -172,6 +172,14 @@ const routes = [
     }
   },
   {
+    path: `/coding/glimmer_bot`,
+    name: `glimmer_bot`,
+    component: () => import(`@/views/coding/Glimmer and Gloom bot.vue`),
+    meta: {
+      title: 'Glimmer and Gloom bot'
+    }
+  },
+  {
     path: `/coding/fractal_generator`,
     name: `fractal_generator`,
     component: () => import(`@/views/coding/Fractal Tree Generator.vue`),

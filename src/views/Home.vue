@@ -67,6 +67,13 @@ export default {
           summary: "",
           cards: [
             {
+              title: "Glimmer and Gloom bot",
+              image: "/assets/images/headers/glimmer.jpg",
+              link: "coding/glimmer_bot",
+              excerpt: "A bot that plays Flight Rising's flash game 'Glimmer and Gloom' for you. Coded in <span class='py codelang'>python</span>.",
+              summary: "Mostly built on the backs of others' modules, but with some clever avoidance of any logic or objects. Isn't it nice when screen parsing happens this fast?"
+            },
+            {
               title: "Timeliner",
               image: "/assets/images/headers/timeliner.png",
               link: "coding/timeliner",
@@ -79,13 +86,6 @@ export default {
               link: "coding/ping_graph",
               excerpt: "A <span class='java codelang'>Java</span> utility for those with unstable internet.",
               summary: "I've spent a long, long time trying to play multiplayer games on less-than-stable internet. Although this utility can't exactly fix poor connection, it can hopefully help you track and diagnose."
-            },
-            {
-              title: "Fractal Tree Generator",
-              image: "/assets/images/headers/fractalTree.png",
-              link: "coding/fractal_generator",
-              excerpt: "A fractal tree generator utility coded in <span class='java codelang'>Java</span>.",
-              summary: "It’s in the very early stages, and it’s not much of an application at all. But if you like it, come on by and check it out. If nothing else, it sure is relaxing to look at."
             },
           ],
           link: "coding",

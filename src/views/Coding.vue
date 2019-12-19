@@ -27,6 +27,13 @@ export default {
     return {
       codes: [
         {
+          title: "Glimmer and Gloom bot",
+          image: "/assets/images/headers/glimmer.jpg",
+          link: "coding/glimmer_bot",
+          excerpt: "A bot that plays Flight Rising's flash game 'Glimmer and Gloom' for you. Coded in <span class='py codelang'>python</span>.",
+          summary: "Mostly built on the backs of others' modules, but with some clever avoidance of any logic or objects. Isn't it nice when screen parsing happens this fast?"
+        },
+        {
           title: "Timeliner",
           image: "/assets/images/headers/timeliner.png",
           link: "coding/timeliner",

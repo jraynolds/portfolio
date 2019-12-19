@@ -168,14 +168,14 @@ h1, h2, h3, h4 {
 		margin-bottom: -20px;
 	}
 
-	.article img, .story img {
+	.article img, .story img, #article img {
 		margin-left: auto;
 		margin-right: auto;
 		
-		width: fit-content;
+		width: inherit;
 	}
 
-	.article p:first-child, .story p:first-child {
+	.article p:first-child, .story p:first-child, #article p:first-child {
 		margin-top: 0px;
 	}
 }
