@@ -1,0 +1,26 @@
+<template>
+	<v-row class="pa-6 px-8 article">
+		<v-col class="darkbackground">
+			<h1 class="gold">{{ article.title }}</h1>
+			<p v-for="(paragraph, index) of article.article" :key="index" v-html="paragraph" />
+		</v-col>
+	</v-row>
+</template>
+
+<script>
+import { Saria_minuet } from "@/assets/articles/stories.js"
+
+export default {
+	data() {
+		return {
+			article: Saria_minuet
+		}
+	}
+}
+</script>
+
+<style scoped>
+p:last-child {
+	margin-bottom: -20px;
+}
+</style>
