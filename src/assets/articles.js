@@ -5,7 +5,7 @@ const American_disbelief = {
 	excerpt: "My name is Isaiah Colwell, and I submit that these stories you hear are worth just about as much as a bit of spare ear’s wax.",
 	summary: "A farmer's boy firmly disbelieves the tales about supernatural creatures, magic, and strange happenings that are told about the small town of Silver Springs. His disbelief is magical too.<br>Written for a few friends' Kickstarter campaign.",
 	img: "americanwest.jpg",
-	to: "/american_disbelief",
+	to: "american_disbelief",
 	characters: [ "Isaiah Colwell", "Sheriff Hammond" ],
 	aliases: [ "Skeptic", "Sheriff" ],
 	elements: [ "Romance", "Longing" ],
@@ -103,7 +103,7 @@ const Harem = {
 	excerpt: "\"Don't get me wrong! I think it's charming. He's so uncoordinated!\" She smiled at the busboy, now apologizing to his manager, and shrugged when she caught Mika's stare. \"What? It is.\"",
 	summary: "A gaggle of girls make eyes at their waiter while the last girl wonders what makes him so special.",
 	img: "",
-	to: "death_escape",
+	to: "harem",
 	article: [
 		"It was a strange sight, six beautiful girls sitting at a table in a run-down little restaurant. They were supremely out of place in such a shabby diner: each in their own way looked as if she could have been a supermodel, or on the front page of some fashion magazine, or on the television--something bright and clean and high-profile. The other patrons, mostly sweat-stained men and the odd strung-out woman, stared openly at the six. The girls didn't seem to care: they only had eyes for the young man bringing their drinks. They shot a few remarks his way and giggled as he fumbled his way through a response, and still their eyes followed him when he left to bus the other tables. Only one of the girls seemed at all able to tear her gaze away from him, and she turned back to her friends with an incredulous expression on her face.",
 		"\"Him?! Really?\"",
@@ -175,7 +175,7 @@ const Did_heaven = {
 	excerpt: 'The angel sat perched in the hospital window, looking at the cocky patient with an expression of worry on her face.',
 	summary: "A playboy suffers an incredible injury, one that should have easily killed him--and yet he walks right out of it with almost superficial damage. He doesn't seem concerned but the Angel who came down from Heaven to collect his soul--who claims he was supposed to die--is.",
 	img: "",
-	link: "did_heaven",
+	to: "did_heaven",
 	article: [
 		"\"Mr. Emry, you know you're not allowed... oh.\"",
     "The nurse peered around the hospital room, doing her best to look past the handsome man in the invalid's bed. He leaned back, unbandaged arm behind his head, seemingly without a care in the world. She didn't like how his eyes roved over her, didn't like the way her nurse's gown seemed no impediment to his gaze. Or she did like it, and didn't like that she liked it. \"Something wrong?\" he asked, and she gave a little start. The nurse reached up to tuck a lock of hair behind her ear but stopped herself halfway. \"No, nothing. I just thought I heard someone in here.\" She frowned at the open window with its fluttering drapes and started towards it but he held up a hand: \"Please, I like the fresh air.\" A smile curved his full lips. \"It can be our little secret.\" Despite herself, the nurse flushed. She had already spent longer here than she intended. She had her rounds to do. \"Fine,\" she said as curtly as she could manage. \"But no more getting out of bed, Mr. Emry. By all rights, you shouldn't even be alive.\" She'd hoped the sentiment would wipe that devil-may-care expression off his face but it had done the opposite: he seemed cockier, almost. Like he was pleased to be reminded of how close he'd come to shuffling off this mortal coil. The nurse pushed herself along, forcing her legs to move. She realized belatedly that one of her hands was toying with a fold of her scrubs and tugged it away, furiously blushing.",
@@ -186,10 +186,10 @@ const Did_heaven = {
 
 const Max_noir = {
 	title: "Max Hard Noir",
-	image: "",
-	link: "max_noir",
 	excerpt: "Heads turned. Eyes widened. The handsome dame at the third desk blushed and bit her lip. Max Hardgrove, six feet tall minus his half-cocked trilby, had that effect.",
 	summary: "A hardboiled detective playing to all the Noir cliches is assigned a straight-laced partner who begins to discover that reality seems to be adapting to the detective's illusions.",
+	img: "",
+	to: "max_noir",
 	article: [
 		"Elijah Wesson stood stiffly in the Police Chief's office, looking every bit the new recruit he was. Chief Lester, first and last name offered on the plaque on his desk, muttered into his rotary phone and took sips from his rapidly-cooling coffee. Elijah ignored the repeated flicks of the Chief's eyes: \"sit down\", he mouthed, but gave up when the recruit just shook his head. At last the phone call finished. He set down the receiver and shuffled papers around on his desk. \"Elijah. Mind if I call you Eli?\"",
     "\"Prefer not, sir,\" the recruit replied. \"Elijah is the name my father gave me and if it's all the same, I'll keep it.\"",
@@ -225,10 +225,10 @@ const Heracles = {
 
 const Tinker_spellcaster = {
 	title: "Tinker, Spellcaster",
-	image: "",
-	link: "/tinker_spellcaster",
 	excerpt: "A carpenter? He'd never so much as hammered a nail. He knew a spell that could do the trick, as sure as he knew one that could twist his neck so far and so quick he'd never feel a thing.",
 	summary: "A sorcerer haunted by his past searches for a place to die. Instead he is rescued by a struggling outland town that claims him and declares him a new man.",
+	img: "",
+	to: "tinker_spellcaster",
 	article: [
 		"He had been walking through the snow for eight hours, and had made several observations he could be sure of: after about an hour, one's legs began to burn. After four hours, all feeling went out of them. And after seven, one tended to lose track of time. The man in the cloak trudged on, carving dual trenches through the snow as soft flakes drifted down. Magic could solve all three of these problems, and he knew the spells: perhaps a strengthening enchantment for the legs, or a spell to quicken the blood. Perhaps a conjured hourglass to track the time. They were easily cast.",
     "The hours wore on. He'd observed something new by this time: after eleven (was it eleven?) hours, one's attention began to waver. Simple things like the snow-covered boughs of a faraway tree became impossible to look away from. A solitary snowflake would capture his attention as it fell through the air, slowly spiraling. More curiously, it would hold it even after the flake disappeared--instead of neatly shifting his focus to the next drifting object, the link would be broken. He would look at nothing at all. And after some time, he would stumble. He would fall in the snow, coating his cloak with dissolving white. He would grow colder still. He would come closer to death. Perhaps it wasn't too late: perhaps a large flame could dry him and chase the chill from his bones.<br>He trudged on.",
@@ -242,7 +242,7 @@ const Frugal_lord = {
 	excerpt: '"You..." she paused, trying to come to terms with what she\'d just heard. She stared at the empty room. "You live like this?"<br>He just cocked his head. "Yes, why?"',
 	summary: "A princess captured by the evil Demon lord discovers his bare-bones, no-frills life.",
 	img: "",
-	to: "stories/frugal_lord",
+	to: "frugal_lord",
 	article: [
 		"They tried to protect their princess, but it was hopeless. How could they defend her against the Demon Lord, with their puny swords and fragile armor? How could they defend against the wind with shields? How against the cold, with matches?",
     "They stood lined up in little rows, spears facing forwards, bristling like so many steely porcupines. These were trained and veteran soldiers, chosen specifically because of their outstanding service. And still they wavered, still they shifted from side to side in their metal boots. Why not? To them it was exactly like facing down an enemy nation that had planted its boots directly in their territory. Who had overcome every obstacle thrown their way. Who had even defeated the heavensent warriors prophesied to be able to topple him. In fact, it was worse: it was just one man.",
@@ -265,7 +265,7 @@ const Isekai_delivery = {
 	excerpt: '"Just what an unfair and dishonorable man would say," the slave girl interrupted. "I\'d prefer you\'d told me you were a dirty thief: then at least I\'d believe you."',
 	summary: "A man born again into a fantasy realm orders a slave girl to live out his fantasies of being a savior--but finds her utterly unimpressed.",
 	img: "",
-	to: "/isekai_delivery",
+	to: "isekai_delivery",
 	article: [
 		"He looked a fair sight out of place, the young Japanese man in front of the back-alley merchants. They might have called him an herbivore, perhaps a shrinking violet, if they'd known what that meant--but they didn't even know what \"Japanese\" meant. Nor did they know of Japan, or Earth, or anything approaching a cheeseburger.",
 		"At first it had been difficult. Only a few of his classmates had survived the first year: possessed by dreams of glory and daring-do, they went running off into dragons' dens and worse. He'd seen a few, now and then, in the gutters: as he'd made his way through the slums to meet these fine gentlemen the first time, he'd spied a girl he remembered from his study hall. She'd been dressed in little better than rags, and had a dirty, bruised face--of course, he'd turned away. He didn't have time for charity.",
@@ -286,7 +286,7 @@ const Requiem = {
 	excerpt: "The second time, it was in the den of his father's home while the old man's revolver slowly slipped from his wrinkled hand. By then, he was hooked.",
 	summary: "A man hears a terrible, wonderful melody when the soul leaves the body. Of course he endeavors to hear it again.",
 	img: "",
-	to: "/requiem",
+	to: "requiem",
 	article: [
 		"He heard it first at his mother's hospital bed, woven somewhere between the life support's beeps and the slow gurgle of her oxygen tank.<br>The second time, it was in the den of his father's home while the old man's revolver slowly slipped from his wrinkled hand. By then, he was hooked.",
 		"He'd tried at first to describe the sound, to those who would listen, but he never knew quite what to say. In his more eloquent moments he likened it to the sweetest, softest chorale music sung in a towering chapel hall. In his cups he called it a song that felt like a mother's touch. The rest of the time, he didn't call it anything at all: he'd learned that people didn't like him talking about hearing things. They tended to ask if he'd had help or talked to someone, and he had. The experts recommended pills, most of them, but they had made him quiet. Made him crazy. Made him lose time here and there. Finally he stopped taking them, and stopped scheduling meetings. He had a vague sense that the experts were quietly relieved.",
@@ -306,7 +306,7 @@ const Cultist_caro = {
 	excerpt: "\"Of course I dreamt it,\" she answered, as if it was perfectly obvious. As if it was perfectly ordinary to dream of a whole day before living it.",
 	img: "catcaro.png",
 	summary: "A knife-wielding mercenary and the titular soothsayer explore a rotting house inhabited by a great serpent and a hidden door.<br>These would be impossible obstacles--if Cat Caro hadn't seen it all in her dreams.<br>Characters from <a href='http://weatherfactory.biz/cultist-simulator/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game.",
-	to: "/cultist_caro",
+	to: "cultist_caro",
 	characters: [ "Cat Caro", "Hired Muscle" ],
 	aliases: [ "Fortune-teller", "Thug" ],
 	elements: [ "Intrigue", "Mystery" ],
@@ -363,28 +363,12 @@ const Darker_dream = {
 
 // Rose and Victor
 
-const Cultist_rose = {
-	title: "Cultist Simulator: Victor and Rose",
-	excerpt: "There was a secret to the path a knife followed: just as a traveler followed the best-worn paths... so a knife took the path of least resistance.",
-	img: "rose.png",
-	summary: "Victor and Rose, sibling knife-wielding killers, find their way unerringly to the service of somone who will change everything--them foremost.<br>Characters from <a href='http://weatherfactory.biz/cultist-simulator/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game.",
-	to: "/cultist_rose",
-	characters: [ "Rose", "Victor" ],
-	aliases: [ "Assassin", "Assassin" ],
-	elements: [ "Horror", "Intrigue", "Romance" ],
-	article: [
-		"<em>This is a fanfiction series from the world of <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a>, by <a href='http://weatherfactory.biz/cultist-simulator/'>Weather Factory</a>. If you haven’t played their frankly incredible game, I recommend it. It’s like nothing else.</em>",
-		"This six-part series follows Rose and Victor, siblings in birth and in vicious habits, as they enter the service of an enigmatic individual--the player, following an Edge Victory. If you don't know the Cultist Simulator game or its lore you may find yourself at a loss--but if you know the game you may anyway.",
-		"Do note this series contains gore, murder, horror and other potentially objectionable romantic themes."
-	]
-}
-
 const Rose_a = {
 	title: "Rose_a",
 	excerpt: "There was a secret to the path a knife followed: just as a traveler followed the best-worn paths on a jaunt over the Continent, so a knife took the path of least resistance.",
 	img: "rose.png",
 	summary: "Rose drifts through life leaving ugly scars in her wake. Perhaps she would have forever, if it wasn't for the luring whispers of a certain someone.<br>Characters from <a href='http://weatherfactory.biz/cultist-simulator/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game.",
-	to: "/rose_a",
+	to: "rose_a",
 	characters: [ "Rose" ],
 	aliases: [ "Assassin" ],
 	elements: [ "Horror", "Intrigue" ],
@@ -404,25 +388,11 @@ const Rose_a = {
 
 // sad songs
 
-const Zelda_songs = {
-	title: "Zelda: Sad Songs",
-	excerpt: "Maybe if I'd snared you then, when you were still my Wolfy, you'd still be mine and this world of twilight would be a little less dark.",
-	summary: "A series of letters and journal entries written by some of the heroines over the Zelda games, expressing their feelings towards the Hero of Time.",
-	img: "malon.jpg",
-	to: "sad_songs",
-	characters: [ "Zelda", "Link", "Saria", "Midna", "Ruto", "Nabooru", "Malon" ],
-	aliases: [ "Princess", "Hero", "Dryad", "Imp", "Heiress", "Harlot", "Peasant Girl" ],
-	elements: [ "Romance", "Longing" ],
-	article: [
-		"These are vignettes from the perspectives of leading girls from video game franchise Legend of Zelda."
-	]
-}
-
 const Saria_minuet = {
 	title: "Saria: Minuet",
 	excerpt: "Now I don’t think I’d care how many chains it would take to keep you here, just as long as you did stay.",
 	img: "saria.jpg",
-	to: "/saria_minuet",
+	to: "saria_minuet",
 	summary: "Saria, Link's earliest friend and the loneliest member of the Kokiri in their isolated forest.<br/><br/><em>Why would he want me, anyway? He's a hero and I'm young, immature, undeveloped. Naive.</em>",
 	article: [
 		"I call you the one that got away.",
@@ -451,7 +421,7 @@ const Malon_song = {
 	excerpt: "Climbing past those guards, darting past and into the castle... it’s enough to set a young maid’s heart a-flutter.",
 	summary: "Malon, Link's first friend in the fields of Hyrule, irrepressible farm girl and cheery worker.<br/><br/><em>It was a nice dream while it lasted. But he's a hero and I'm just Malon the farm girl. Dirty, ugly, worn down. Used goods.</em>",
 	img: "malon.jpg",
-	to: "/malon_song",
+	to: "malon_song",
 	article: [
 		"Would you laugh if I said the most interesting thing to ever happen to me was you?",
     "I know, I know. A real farm girl, making trips to the castle every week, living in the midst of great times. What’s some lame fairy boy got to offer?",
@@ -473,7 +443,7 @@ const Ruto_serenade = {
 	excerpt: "It’s not every day a princess offers to marry you, you know. It’s a once-in-a-lifetime opportunity!",
 	summary: "Ruto, Link's self-proclaimed fiancee, princess to the Zora. Snooty and self-centered as a girl, commanding as a woman.<br/><br/><em>It's not fair, not even a little bit--although I know better now. I forced you into it. But you </em>did<em> promise.</em>",
 	img: "ruto.jpg",
-	to: "/ruto_serenade",
+	to: "ruto_serenade",
 	article: [
 		"You should be grateful: you’re the only boy I’ve ever waited for.",
     "It’s not every day a princess offers to marry you, you know. It’s a once-in-a-lifetime opportunity!",
@@ -496,7 +466,7 @@ const Zelda_lullaby = {
 	excerpt: "I don’t know what sorts of stories you’ve heard about princesses, but I can assure you I’m a very poor example of one.",
 	summary: "Zelda, Link's ineffable and powerful princess. His destination and his goal... uncertain of herself.<br/><br/><em>I know you've chosen me, and I know I should be happy. I am, more than I've ever been, luckier than I've ever known. But I'm not who you think I am.</em>",
 	img: "zelda.jpg",
-	to: "/zelda_lullaby",
+	to: "zelda_lullaby",
 	article: [
 		"You made a mistake when you chose me.",
     "I don’t know what sorts of stories you’ve heard about princesses, but I can assure you I’m a very poor example of one. We’re supposed to be gentle, but I’m not always. We’re supposed to be kind, but I can be mean. We’re supposed to be genial and calm and ephemeral but sometimes I think I’m more at home in the dirt than I am in a big, empty castle.",
@@ -516,8 +486,8 @@ const Nabooru_requiem = {
 	title: "Nabooru: Requiem",
 	excerpt: "You were cute back then, seven years ago. A little boy determined to knock down all the obstacles in his path.",
 	summary: "Nabooru, Link's flirtatious and confident ally through the passage of time. Of the Gerudo, molded by the desert.<br/><br/><em>I'm used to being the one in control at all moments in my life--but around you, I seem helpless. I have many secrets, and if you choose me I'll tell you one.</em>",
-	img: "/assets/images/headers/nabooru.png",
-	to: "/nabooru_requiem",
+	img: "nabooru.png",
+	to: "nabooru_requiem",
 	article: [
 		"If only I could turn back time.",
     "We of the Gerudo are always looking for strong, capable husbands. I don’t mean to say when I first saw you I was already envisioning marriage: if I said that it wouldn’t be true and we Gerudo don’t like to lie. Another way I differ from that other, more troublesome thief. Have you defeated him already? If you haven’t, I’m sure it’ll only be a matter of time.",
@@ -543,7 +513,7 @@ const Midna_lament = {
 	excerpt: "Maybe if I'd snared you when you were still my Wolfy, you'd still be mine and this twilight would be a little less dark.",
 	summary: "Midna, of the Twili and possessed of a devilish wit. All charm and all coyness, and yet?<br/><br/><em>It was over before I knew it, and of course I could never blame you for choosing who you did. But just because I can't blame you doesn't mean it can't hurt.</em>",
 	img: "midna.jpg",
-	to: "/midna_lament",
+	to: "midna_lament",
 	article: [
 		"I liked you better as a stupid dog.",
     "You were cute in a wolf way when I found you, you know--all agitated and barky trying to get used to having four paws instead of two. Without me, you'd probably still be stuck in that crummy jail cell, chained up and rotting away! I guess if you put it like that, I'm the real hero of Hyrule. I found the Hero of Time and made sure he wouldn't just waste away as a little wolfy! Out of the goodness of my own heart, of course.",
@@ -555,7 +525,7 @@ const Midna_lament = {
 	]
 }
 
-const stories = {
+const articles = {
 	american_disbelief: American_disbelief,
 	death_escape: Death_escape,
 	real_magic: Real_magic,
@@ -571,10 +541,8 @@ const stories = {
 	cultist_caro: Cultist_caro,
 	darker_dream: Darker_dream,
 
-	cultist_rose: Cultist_rose,
 	rose_a: Rose_a,
 
-	zelda_songs: Zelda_songs,
 	saria_minuet: Saria_minuet,
 	malon_song: Malon_song,
 	ruto_serenade: Ruto_serenade,
@@ -584,5 +552,5 @@ const stories = {
 }
 
 export {
-	stories
+	articles
 }

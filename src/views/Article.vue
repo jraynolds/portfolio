@@ -8,6 +8,8 @@
 </template>
 
 <script>
+import { articles } from "@/assets/articles.js"
+
 export default {
 	data() {
 		return {
@@ -16,7 +18,8 @@ export default {
 	},
 	beforeMount() {
 		// eslint-disable-next-line no-console
-		console.log(this.$route.params.article);
+		// console.log(this.$route.params.article);
+		this.article = articles[this.$route.params.article];
 	}
 }
 </script>

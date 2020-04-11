@@ -8,7 +8,14 @@
 			</v-col>
 			<v-row>
 				<v-col v-for="feature of featured" :key="feature.title">
-					<MiniCard :card="feature" :url="'stories/'" />
+					<MiniCard 
+						v-if="feature.url=='stories'" 
+						:card="articles[feature.name]" 
+						:url="'stories/'" />
+					<MiniCard 
+						v-else
+						:card="collections[feature.name]" 
+						:url="'collections/'" />
 				</v-col>
 			</v-row>
 
@@ -18,7 +25,14 @@
 			</v-col>
 			<v-row>
 				<v-col v-for="original of originals" :key="original.title">
-					<MiniCard :card="original" :url="'stories/'" />
+					<MiniCard 
+						v-if="original.url=='stories'" 
+						:card="articles[original.name]" 
+						:url="'stories/'" />
+					<MiniCard 
+						v-else
+						:card="collections[original.name]" 
+						:url="'collections/'" />
 				</v-col>
 			</v-row>
 
@@ -28,7 +42,14 @@
 			</v-col>
 			<v-row>
 				<v-col v-for="fanfic of fanfics" :key="fanfic.title">
-					<MiniCard :card="fanfic" :url="'stories/'" />
+					<MiniCard 
+						v-if="fanfic.url=='stories'" 
+						:card="articles[fanfic.name]" 
+						:url="'stories/'" />
+					<MiniCard 
+						v-else
+						:card="collections[fanfic.name]" 
+						:url="'collections/'" />
 				</v-col>
 			</v-row>
 
@@ -38,7 +59,14 @@
 			</v-col>
 			<v-row>
 				<v-col v-for="hook of hooks" :key="hook.title">
-					<MiniCard :card="hook" :url="'stories/'" />
+					<MiniCard 
+						v-if="hook.url=='stories'" 
+						:card="articles[hook.name]" 
+						:url="'stories/'" />
+					<MiniCard 
+						v-else
+						:card="collections[hook.name]" 
+						:url="'collections/'" />
 				</v-col>
 			</v-row>
 		</v-row>
@@ -46,9 +74,8 @@
 </template>
 
 <script>
-import {
-	stories
-} from "@/assets/articles.js"
+import { articles } from "@/assets/articles.js"
+import { collections } from "@/assets/collections.js"
 
 import MiniCard from "@/components/cards/MiniCard"
 
@@ -58,33 +85,33 @@ export default {
 	},
 	data() {
 		return {
+			articles: articles,
+			collections: collections,
 			featured: [
-				stories.cultist_caro,
-				stories.zelda_songs,
-				stories.american_disbelief
+				{ name: "cultist_caro", url: "stories" },
+				{ name: "zelda_songs", url: "collections" },
+				{ name: "american_disbelief", url: "stories" }
 			],
 			originals: [
-				stories.american_disbelief,
-				stories.real_magic,
-				stories.harem
+				{ name: "american_disbelief", url: "stories" },
+				{ name: "real_magic", url: "stories" },
+				{ name: "harem", url: "stories" }
 			],
 			fanfics: [
-				stories.cultist_caro,
-				stories.darker_dream,
-
-				stories.cultist_rose,
-
-				stories.zelda_songs,
+				{ name: "cultist_caro", url: "stories" },
+				{ name: "darker_dream", url: "stories" },
+				{ name: "cultist_rose", url: "collections" },
+				{ name: "zelda_songs", url: "collections" },
 			],
 			hooks: [
-				stories.death_escape,
-				stories.did_heaven,
-				stories.heracles,
-				stories.max_noir,
-				stories.tinker_spellcaster,
-				stories.frugal_lord,
-				stories.isekai_delivery,
-				stories.requiem
+				{ name: "death_escape", url: "stories" },
+				{ name: "did_heaven", url: "stories" },
+				{ name: "heracles", url: "stories" },
+				{ name: "max_noir", url: "stories" },
+				{ name: "tinker_spellcaster", url: "stories" },
+				{ name: "frugal_lord", url: "stories" },
+				{ name: "isekai_delivery", url: "stories" },
+				{ name: "requiem", url: "stories" }
 			]
 		}
 	}
