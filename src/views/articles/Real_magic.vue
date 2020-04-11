@@ -8,15 +8,13 @@
 </template>
 
 <script>
+import { Real_magic } from "@/assets/articles/stories.js"
+
 export default {
 	data() {
 		return {
-			article: null
+			article: Real_magic
 		}
-	},
-	beforeMount() {
-		// eslint-disable-next-line no-console
-		console.log(this.$route.params.article);
 	}
 }
 </script>

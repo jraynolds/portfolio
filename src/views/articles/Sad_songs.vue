@@ -3,12 +3,20 @@
 		<v-col class="darkbackground">
 			<h1 class="gold">{{ article.title }}</h1>
 			<p v-for="(paragraph, index) of article.article" :key="index" v-html="paragraph" />
+
+			<v-row>
+				<v-col v-for="subArticle of subArticles" :key="subArticle.title">
+					<MiniCard :card="subArticle" :url="'/stories/'" />
+				</v-col>
+			</v-row>
 		</v-col>
 	</v-row>
 </template>
 
 <script>
 import {
+	Zelda_songs,
+
 	Saria_minuet,
 	Malon_song,
 	Ruto_serenade,
@@ -16,12 +24,17 @@ import {
 	Nabooru_requiem,
 	Midna_lament
 } from "@/assets/articles/stories.js"
-import Saria_minuetVue from './Saria_minuet.vue'
+
+import MiniCard from "@/components/cards/MiniCard"
 
 export default {
+	components: {
+		MiniCard
+	},
 	data() {
 		return {
-			articles: [
+			article: Zelda_songs,
+			subArticles: [
 				Saria_minuet,
 				Malon_song,
 				Ruto_serenade,
@@ -34,6 +47,14 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.darkbackground {
+	background: black;
+	box-shadow: 0 10px 10px 20px black;
+	color: gray;
+}
 
+p:last-child {
+	margin-bottom: -20px;
+}
 </style>

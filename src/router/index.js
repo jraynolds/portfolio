@@ -21,6 +21,16 @@ Vue.use(VueRouter)
       title: 'Stories'
     }
 	},
+
+	{
+    path: '/stories/:article',
+    name: '???',
+    component: () => import('@/views/Article.vue'),
+    meta: {
+      title: '???'
+    }
+	},
+	
 	// Stories
 	// ORIGINAL
 	{
@@ -40,6 +50,22 @@ Vue.use(VueRouter)
     component: () => import('@/views/articles/Death_escape.vue'),
     meta: {
       title: 'Death is no escape'
+    }
+  },
+	{
+    path: '/stories/real_magic',
+    name: 'Real Magic',
+    component: () => import('@/views/articles/Real_magic.vue'),
+    meta: {
+      title: 'Real Magic'
+    }
+  },
+	{
+    path: '/stories/harem',
+    name: 'Harem',
+    component: () => import('@/views/articles/Harem.vue'),
+    meta: {
+      title: 'Harem'
     }
   },
 	{
@@ -90,6 +116,14 @@ Vue.use(VueRouter)
       title: 'Isekai Delivery'
     }
   },
+	{
+    path: '/stories/requiem',
+    name: 'Requiem',
+    component: () => import('@/views/articles/Requiem.vue'),
+    meta: {
+      title: 'Requiem'
+    }
+  },
 	// FANFIC
   {
     path: '/stories/cultist_caro',
@@ -107,6 +141,14 @@ Vue.use(VueRouter)
       title: 'Darker than Black: I Dream'
     }
 	},
+  {
+    path: '/stories/cultist_rose',
+    name: 'Cultist Simulator: Rose and Victor',
+    component: () => import('@/views/articles/Cultist_rose.vue'),
+    meta: {
+      title: 'Cultist Simulator: Rose and Victor'
+    }
+	},
 	// Rose + Victor
 	{
     path: '/stories/rose_a',
@@ -114,6 +156,14 @@ Vue.use(VueRouter)
     component: () => import('@/views/articles/rose and victor/Rose_a.vue'),
     meta: {
       title: 'Rose_a'
+    }
+  },
+	{
+    path: '/stories/sad_songs',
+    name: 'Legend of Zelda: Sad Songs',
+    component: () => import('@/views/articles/Sad_songs.vue'),
+    meta: {
+      title: 'Legend of Zelda: Sad Songs'
     }
   },
 	// Sad songs

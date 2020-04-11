@@ -2,15 +2,23 @@
 	<div class="container" @hover="isHovered = !isHovered" :class="{hover: isHovered}">
 		<router-link :to="url + card.to">
 			<div class="flipper">
+
 				<div class="front">
-					<v-card color="black" style="color: gray" justify="center" align="center">
+					<v-card 
+						color="black" 
+						style="color: gray" 
+						justify="center" 
+						align="center"
+						height="470"
+					>
 						<v-img 
 							v-if="card.img"
 							:src="require('@/assets/images/headers/' + card.img)" 
 							height="300" />
 						<v-img 
 							v-else
-							:src="'https://i.imgur.com/OANxEOR.png'" />
+							:src="'https://i.imgur.com/OANxEOR.png'"
+							height="300" />
 						<v-card-title 
 							class="headline justify-center pt-0 gold" 
 							v-html="card.title.split(': ').join(':<br>')" />
@@ -19,6 +27,7 @@
 						</v-card-subtitle>
 					</v-card>
 				</div>
+
 				<div class="back">
 					<v-card 
 						color="black"
@@ -54,6 +63,7 @@
 						</v-row>
 					</v-card>
 				</div>
+
 			</div>
 		</router-link>
 	</div>
@@ -61,7 +71,13 @@
 
 <script>
 export default {
-	props: [ "card", "url" ],
+	props: {
+		card: Object,
+		url: {
+			type: String,
+			default: ""
+		}
+	},
 	data: () => ({
 		isHovered: false
   }),

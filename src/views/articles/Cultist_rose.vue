@@ -3,20 +3,36 @@
 		<v-col class="darkbackground">
 			<h1 class="gold">{{ article.title }}</h1>
 			<p v-for="(paragraph, index) of article.article" :key="index" v-html="paragraph" />
+
+			<v-row>
+				<v-col v-for="subArticle of subArticles" :key="subArticle.title">
+					<MiniCard :card="subArticle" :url="'/stories/'" />
+				</v-col>
+			</v-row>
 		</v-col>
 	</v-row>
 </template>
 
 <script>
+import {
+	Cultist_rose,
+
+	Rose_a
+} from "@/assets/articles/stories.js"
+
+import MiniCard from "@/components/cards/MiniCard"
+
 export default {
+	components: {
+		MiniCard
+	},
 	data() {
 		return {
-			article: null
+			article: Cultist_rose,
+			subArticles: [
+				Rose_a
+			]
 		}
-	},
-	beforeMount() {
-		// eslint-disable-next-line no-console
-		console.log(this.$route.params.article);
 	}
 }
 </script>

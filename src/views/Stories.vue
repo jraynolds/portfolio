@@ -1,40 +1,54 @@
 <template>
-	<v-row class="pa-6 px-8 article">
-		<v-col class="darkbackground" cols="12">
-			<h1 class="gold mb-8">Stories</h1>
-			<h2>Featured</h2>
-			<h3>Some of my more interesting ideas.</h3>
-		</v-col>
-		<v-row>
-			<v-col v-for="feature of featured" :key="feature.title">
-				<MiniCard :card="feature" :url="'stories/'" />
+	<div class="content pa-8">
+		<v-row class="article darkbackground">
+			<v-col cols="12">
+				<h1 class="gold mb-8">Stories</h1>
+				<h2>Featured</h2>
+				<h3>Some of my more interesting ideas.</h3>
 			</v-col>
+			<v-row>
+				<v-col v-for="feature of featured" :key="feature.title">
+					<MiniCard :card="feature" :url="'stories/'" />
+				</v-col>
+			</v-row>
+
+			<v-col cols="12">
+				<h2>Originals</h2>
+				<h3>Completed original works.</h3>
+			</v-col>
+			<v-row>
+				<v-col v-for="original of originals" :key="original.title">
+					<MiniCard :card="original" :url="'stories/'" />
+				</v-col>
+			</v-row>
+
+			<v-col cols="12">
+				<h2>Fanfiction</h2>
+				<h3>Works featuring others' characters.</h3>
+			</v-col>
+			<v-row>
+				<v-col v-for="fanfic of fanfics" :key="fanfic.title">
+					<MiniCard :card="fanfic" :url="'stories/'" />
+				</v-col>
+			</v-row>
+
+			<v-col cols="12">
+				<h2>Hooks</h2>
+				<h3>Bite-sized ideas designed to inspire a larger story... one day.</h3>
+			</v-col>
+			<v-row>
+				<v-col v-for="hook of hooks" :key="hook.title">
+					<MiniCard :card="hook" :url="'stories/'" />
+				</v-col>
+			</v-row>
 		</v-row>
-	</v-row>
+	</div>
 </template>
 
 <script>
 import {
-	American_disbelief,
-	Death_escape,
-	Did_heaven,
-	Heracles,
-	Max_noir,
-	Tinker_spellcaster,
-	Frugal_lord,
-	Isekai_delivery,
-
-	Cultist_caro,
-	Darker_dream,
-
-	Zelda_songs,
-	Saria_minuet,
-	Malon_song,
-	Ruto_serenade,
-	Zelda_lullaby,
-	Nabooru_requiem,
-	Midna_lament
-} from "@/assets/articles/stories.js"
+	stories
+} from "@/assets/articles.js"
 
 import MiniCard from "@/components/cards/MiniCard"
 
@@ -45,30 +59,32 @@ export default {
 	data() {
 		return {
 			featured: [
-				Cultist_caro,
-				Zelda_songs,
-				American_disbelief
+				stories.cultist_caro,
+				stories.zelda_songs,
+				stories.american_disbelief
 			],
-			articles: [
-				American_disbelief,
-				Death_escape,
-				Did_heaven,
-				Heracles,
-				Max_noir,
-				Tinker_spellcaster,
-				Frugal_lord,
-				Isekai_delivery,
+			originals: [
+				stories.american_disbelief,
+				stories.real_magic,
+				stories.harem
+			],
+			fanfics: [
+				stories.cultist_caro,
+				stories.darker_dream,
 
-				Cultist_caro,
-				Darker_dream,
+				stories.cultist_rose,
 
-				Zelda_songs,
-				Saria_minuet,
-				Malon_song,
-				Ruto_serenade,
-				Zelda_lullaby,
-				Nabooru_requiem,
-				Midna_lament
+				stories.zelda_songs,
+			],
+			hooks: [
+				stories.death_escape,
+				stories.did_heaven,
+				stories.heracles,
+				stories.max_noir,
+				stories.tinker_spellcaster,
+				stories.frugal_lord,
+				stories.isekai_delivery,
+				stories.requiem
 			]
 		}
 	}

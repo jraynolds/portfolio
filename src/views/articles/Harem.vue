@@ -8,15 +8,13 @@
 </template>
 
 <script>
+import { Harem } from "@/assets/articles/stories.js"
+
 export default {
 	data() {
 		return {
-			article: null
+			article: Harem
 		}
-	},
-	beforeMount() {
-		// eslint-disable-next-line no-console
-		console.log(this.$route.params.article);
 	}
 }
 </script>

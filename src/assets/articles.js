@@ -72,6 +72,104 @@ const Death_escape = {
 	]
 }
 
+const Real_magic = {
+	title: "Real Magic",
+	excerpt: "Nathan had seen it all before: two assistants would be involved, pressed together to pretend they were just one, and so the saw would go straight between.",
+	summary: "A man disillusioned with stage magic wants to see real magic, just once. It turns out to be a very unfortunate wish.",
+	img: "",
+	to: "real_magic",
+	article: [
+		"Magic wasn't magic if you could see it from the wings. Out there in the half-lit booths, around the tables heaped with wineglasses, Nathan was sure it was more impressive to see a rose appear from nowhere. To see a card revealed--the right card, the chosen card. From the wings on the side of the stage, Nathan saw a different kind of show. He saw the rose slipped out of the magician's pocket a moment earlier, and the card swapped out halfway through the shuffle. He saw the force, the palm, the ditch, the load. He saw the trick for what it was, and felt...<br>disappointed.",
+		"It was a silly emotion to feel, almost childish. Of course magic wasn't real: rabbits didn't simply appear inside hats. They came from somewhere and likely went somewhere as well. You couldn't break the laws of nature. Only one magician had ever done that.",
+		"Nathan watched from the sidelines, staring with a grim expression on his face as the magician on stage wowed the audience. \"The Day of the Dead! A spine-chilling, liminal occasion when the lines between the living and the dead...\" his patter continued, but Nathan tuned it out. Tonight's entertainment was themed and the magicians had been coached to alter their acts accordingly. Not, of course, that most did more than the bare minimum: the current act had just withdrawn a deck of cards with a smiling skull on it. Well, that was fine if the crowd enjoyed it--and they did, after all, clapping and cheering when the ace of spades was produced once, twice, three times despite having been shuffled back into the deck after each reveal. Nathan watched the magician's hands and nodded to himself, satisfied, when he saw the card deftly slipped from the bottom of the deck.",
+		"He knew it was stupid, that he wanted at once to be fooled by a magic trick yet watched so doggedly to discern its methodology. Nathan couldn't stand not knowing, even though the subsequent feeling of satisfaction was utterly and completely drowned out by disappointment. As a child he'd pored over the books in the local library (later, internet forums and still later, online encyclopedias) for insight into stage magic. Now, he hardly had to think to figure out the most convoluted acts.<br>All but one.",
+		"The crowd cheered as the magician revealed his final trick: a sugar skull from his black stovepipe hat. Nathan did his best not to roll his eyes, but he couldn't quite paste on a smile as the performer exited the stage. Sweaty, he grinned at Nathan and offered a hand. \"Did I fool you?\"<br>The technician shook his hand and smirked for a second or two, no more. \"The ace never got shuffled back into the deck. False bottom on the hat.\"<br>The magician's smile faltered but returned as he mopped his brow. \"And the ribbons?\"<br>Nathan frowned. He hadn't seen that. Must have tuned out for a little too long. \"Wadded up... hidden in the palm?\" The man's fallen face was all the answer he needed. \"Hey, you still get paid. Just not the extra.\"<br>\"Still!\" The magician cried, dramatic on stage and off. \"It's the spirit of the matter. I'll just have to fool you next time.\"<br>\"Next time,\" he agreed, and handed an envelope over. Just one, not the bill fold in his pocket. Large and growing larger every show he wasn't tricked. But before the man could leave Nathan spoke. As if it was an afterthought:<br>\"If you had to make a person disappear... really, truly disappear, how would you do it?\"<br>The magician considered that. \"A trap door,\" he answered at last. \"And something soft below.\"<br>But it hadn't been a stage. And the backyard of a boy's tenth birthday party wasn't likely to have trap doors built into it. \"Ever known a magician to wear a checkered blue suit?\"<br>\"Hmm... not so far as I can recall. Friend of yours?\"<br>\"Something like that,\" Nathan said, and nodded a goodbye.<br>At least the magician had the good manners not to count the money until he was out of view.",
+		"Nathan stifled a sigh as the next performer went on stage. Nonstop magic. It brought the crowds in.",
+		"This man wasn't nearly as much a stereotype as the last one had been, Nathan had to admit that. Instead of a black suit and tie, he wore a white collared shirt and a bolo. Instead of a scrawny, intense-looking white guy, the magician was Mexican, probably. Nathan liked that. Diversity meant new tricks. \"The great,\" an announcer's voice boomed, \"Ernestooo!\"<br>Ernesto smiled, gave a cocky bow, and began his patter. Nathan tuned it out.",
+		"Instead of listening, he was thinking again about the cheers of children, the taste of frosting on his tongue. Little Sally walking casually up to the magician with the big smile, his checkered blue suit shimmering in the sunlight. Him waving his palm over her straw-blonde hair and then--",
+		"Nathan frowned. He had been watching the performance out of the corner of his eye and something had brought him up short, something that he didn't immediately understand. He watched more closely: as he did, the magician's hand passed in front of his face. In a flash, his visage was overlaid with skull imagery, like a mask in the style of a sugar skull. The hand passed in front: gone. Again: the mask returned. It took a moment for Nathan to understand why something was continuing to nag at him while he watched the performance--but as the magician dipped in a bow to the pleased cheers of his audience, it hit him. Nathan didn't know how he'd done the trick.<br>Was it a sliding mask trick? He wore no hat. Was it a light trick? They didn't have the right lights or projectors for that. It had to be, he ended up deciding, a very good sleight-of-hand trick. A very, very good one.",
+		"Then his assistant, pretty in her sugar-skull makeup, wheeled out the saw-in-half prop. More patter that Nathan tuned out: he'd heard it all before. Perhaps the so-called \"Great Ernesto\" would say something about how all of this was perfectly safe, or how he possessed healing powers sufficient to close up his assistant after she was split in half. He waved a sharp-looking saw and spun the twin boxes the assistant was already lying in, revealing to the audience there was nothing up his sleeves. Nathan had seen it all before: two assistants would be involved, pressed together to pretend they were just one, and so the saw would go straight between. The large metal bowl below where her stomach was supposed to be was new, but he couldn't imagine the act would catch his attention.",
+		"Nathan was wrong.",
+		"The first inkling he got came when the gag was placed in the woman's mouth. It seemed like a slightly macabre gesture but then again, this was for a Day of the Dead act so he could let it pass as an off-color joke. The woman looked around wildly as the saw was placed between the boxes and caught his eyes. She looked terrified: all her showmanship and bravado had disappeared in a very convincing way that, in his mind, elevated this mediocre act to a good one. Still, Nathan wished she'd at least look at the audience. There was no point in looking scared for his benefit.<br>Nathan wrinkled his nose as red syrup began to drip down from the sawing and puddle in the metal bowl. Even for Day of the Dead this was a little far. He was going to cut the act but realized belatedly the angle of the prop boxes made it so the bowl--and the blood beginning to fill it--was only visible from the wings. None of the audience seemed to have noticed, so Nathan relaxed. A little.<br>Then the entrails began to spill.<br>Convincing, realistic prop guts spilled out and dropped into the metal bowl with a wet squelch. They shivered as the assistant struggled, her eyes wide and uncomprehending. He could hear the muffled noises she was making and to be honest, they began to unnerve him. The saw had reached halfway down her now and the tone of it changed: from a wet ripping noise every time the saw dragged one way to a rough grating. Not unlike metal on bone. The magician leaned down, forcing the saw through--a snap. The last few inches. Guts and entrails, feet and feet of them, went splattering into the bowl. Red droplets spilled onto the ground. The assistant blinked slowly. Thrashed weakly. Died.<br>Pretended to die, that is. She pretended. Nathan needed to snap out of it.",
+		"\"But on this day, el Dia de Los Muertos,\" Ernesto crowed, \"Even the dead may return to life.\" His face was sweaty underneath the stage lights and he grinned like a madman. \"Even this woman may be joined together again!\" The magician waved his hand over the box and slowly, very slowly the entrails--the fake entrails--began to slide back up. The assistant began to thrash and make gutteral noises, almost inaudible past the gag. They were drowned out by a horrible cracking and stitching sound as the damage began to reverse itself. Little by little. One foot of the intestinal rope by one foot. And somehow, inexplicably, the blood even began to slither upwards. The corn syrup? The blood?<br>When the process was fully reversed it was like it had never happened at all: not a speck of red was visible, not even on the saw which Ernesto waved to raucous applause. The assistant was removed from the box and displayed without any trace of damage to her person, although she was clearly unsteady. Clearly dazed. Clearly changed.",
+		"Nathan didn't pay attention to the rest of the act, not that there was much left to miss. In the end the assistant departed the stage and so did the magician, leaving him face to face with Nathan, who came back to himself with a start. He realized the magician must have been talking to him for some time.<br>\"Sorry,\" Nathan replied automatically. \"What was that?\"<br>\"Oh, Just asking if you liked the show.\" Ernesto was still grinning wide, too wide for Nathan's comfort. Up close he could see that several of Ernesto's teeth were golden. His skin still glistened in the cool air of the wings, away from the bright stage lights.<br>\"Yes.\"<br>\"Just a simple yes?\" the magician laughed as if enjoying some joke Nathan wasn't privy to. \"I was certainly hoping you'd have a stronger reaction, ese! I pulled out some of my best tricks.\" He leaned close, conspiratorially, smelling strongly of sage. \"Did I fool you?\"<br>Nathan found he couldn't swallow: his throat was too dry. He answered mechanically. \"Sleight of hand on the masks. And for the saw...\" he hesitated, then swore at himself for doing so. It was a simple trick. He'd seen it a million times before. This one had simply involved some unorthodox props. \"For the saw,\" he coughed, \"two women, just like how it's always done. One woman is the legs, the other...\"<br>\"The top?\" Ernesto nodded, contemplating the answer. \"Yes, that's how it's done. You're a bright one, ese! Then the legs must be in there still.\" Nathan followed the magician's pointing finger to the saw box prop. When had that gotten there? The box intended for the top was open, empty. The bottom was closed.<br>\"Yes,\" Nathan answered quietly. \"She must be.\"<br>\"Likes spending her time in there, doesn't she?\" Ernesto gave him a serious look, then clapped him on the shoulder and burst into laughter. It was all Nathan could do to smile wanly. \"Ah, I kid. She's in there. You guessed me right, ese.\"<br>\"Of course.\" He tried to put as much certainty into the words as possible. He doled out the cash, which Ernesto graciously accepted, and the magician turned to leave. \"One last thing,\" Nathan added, kicking himself internally. He'd spoken by reflex but wanted absolutely nothing more to do with this man. Every cell in his body was screaming to leave. He licked his lips as he felt the magician's eyes--and his smile--on him. \"If... if you were going to make an assistant disappear in broad daylight, how would you do it?\"<br>The man seemed to consider that for a moment. Finally he grinned and tossed back over his shoulder: \"Well, ese, I suppose I'd have to send her somewhere else.\"",
+		"His laughter faded down the wing, leaving Nathan's skin crawling. He knew very little about anything, he often felt, besides magic. And this was what he knew: on a muggy summer day on a child's eleventh birthday, little Sally had gone forever and he'd never seen her again.",
+		"And when he opened the last box he knew one more thing:<br>magic was real."
+	]
+}
+
+const Harem = {
+	title: "Harem",
+	excerpt: "\"Don't get me wrong! I think it's charming. He's so uncoordinated!\" She smiled at the busboy, now apologizing to his manager, and shrugged when she caught Mika's stare. \"What? It is.\"",
+	summary: "A gaggle of girls make eyes at their waiter while the last girl wonders what makes him so special.",
+	img: "",
+	to: "death_escape",
+	article: [
+		"It was a strange sight, six beautiful girls sitting at a table in a run-down little restaurant. They were supremely out of place in such a shabby diner: each in their own way looked as if she could have been a supermodel, or on the front page of some fashion magazine, or on the television--something bright and clean and high-profile. The other patrons, mostly sweat-stained men and the odd strung-out woman, stared openly at the six. The girls didn't seem to care: they only had eyes for the young man bringing their drinks. They shot a few remarks his way and giggled as he fumbled his way through a response, and still their eyes followed him when he left to bus the other tables. Only one of the girls seemed at all able to tear her gaze away from him, and she turned back to her friends with an incredulous expression on her face.",
+		"\"Him?! Really?\"",
+		"The girl next to her rolled her eyes and drummed her glitter-coated pink nails on her jeweled phone. \"Mika, don't be such a bummer. What's not to like?\"",
+		"Mika turned and watched the busboy delivering waters to another table. She looked him up and down one more time: black, close-cropped hair... not tall, not short... uniform not well fitted... face neither ugly nor particularly remarkable at all. He just seemed... normal. Kind of boring.",
+		"\"I just, he looks...\" Mika searched for words, frowning when she discovered she'd already forgotten his unremarkable face. Perhaps it was no surprise she hadn't recognized him from their school. \"Kind of average? I don't know. I always thought you went for older guys, Rina.\"",
+		"Rina blew a kiss towards the busboy and smirked when he blushed and stumbled, nearly losing the glasses and plates he carried. \"Yeah, y'know, I used to, I did, but he's different.\" She stuck her tongue out at Mika when she continued to stare with an incredulous expression, prompting the girl to round on another of her friends.",
+		"\"And you, Keiko? I thought you were...\" she lowered her voice and leaned in, glancing around. Some of their onlookers had the good nature to look away. \"...were, you know... interested in girls, not guys.\"",
+		"The girl she addressed flinched back slightly, a blush coloring her pale cheeks. She swept a hand through her long black hair and bit her lip, looking almost embarrassed. \"Yeah, normally... but I don't know, there's just something about him. You really don't see it?\"",
+		"All eyes turned back to the busboy. Still Mika couldn't see it, but they could all see the disaster before it started: a stray shoelace, a platter of (thankfully empty) plates and the rest was history. He went sprawling and plates shattered all over the dirty floor. A chorus of sucked-in breaths and gasps echoed around the girls' table. Mika almost started towards him to see if he needed help but he was already standing up on his own--only to come face to face with a livid manager. His scolding could be heard from every seat in the diner. The patrons turned back to their business, seemingly used to the spectacle.",
+		"\"What a klutz,\" one of the girls snickered, and Mika rounded on her. ",
+		"\"Exactly! Who even trips on their own shoelaces? Nel--\"",
+		"But Nel was already shaking her hand, eyes warm behind her glasses and overlong bangs. \"Don't get me wrong! I think it's charming. He's so uncoordinated!\" She smiled at the busboy, now apologizing to his manager, and shrugged when she caught Mika's stare. \"What? It is.\"",
+		"\"Emma,\" Mika started, but stopped as soon as she saw the moony expression on her friend's face. \"You too?\"",
+		"Emma blushed and nodded her head slowly. She was half-hidden behind her school books, but her eyes visibly tracked the young man's every movement. She caught her breath and blew it out in one long, slow puff. \"M... me too.\"",
+		"\"You know,\" the sixth girl leaned back against the diner seats, arms folded behind her head. \"That clumsiness is actually how we met the first time around. If he wasn't the way he is, I might still be indulging my bad boy craving.\" There was murmured assent around the table, but Mika was happy to take the bait.",
+		"\"How did the you meet him, Ally? In fact--how did all of you meet?\"",
+		"\"Well,\" Ally drawled, \"I was driving my bike down the street when he stepped on his shoelace and pitched right into the road. Almost rolled right over him.\" Several of the girls shuddered. Emma let out a muffled shriek. \"Anyway, he was fine. I stopped in time, but I had a mind to tan his hide.\" She paused, long enough that Mika gestured for her to continue on. \"Well...\" Ally coughed, the brash girl seeming almost embarrassed. \"I didn't. We, uh, started talking, and he said he knew what it was like to lose a parent...\"",
+		"This time Mika did interrupt. \"He knew about your dad?\"",
+		"\"What? No way!\" Ally shook her head. \"We just talked and the conversation sorta... went that way. And he made me feel better, and I figured why the hell not, I could go for a normal guy once in a while. You're always telling me to.\"",
+		"Mika looked ready to interject, or at least to push for more information, but her friends were jostling to share their own stories. \"It was like that for me too y'know,\" Rina mentioned after she finished blowing a pink, bubblegum bubble. \"Like, I was out taking the subway and I just happened to look up from my phone, and he was just about to walk off the platform right onto the rails! I yelled and he stopped, like, just in time. Super lucky.\" Emma let out another gasp but Rina just flicked her hair and rolled her eyes. \"A-nyway, we chatted up a bit and I gave him my number and we've been texting ever since. I don't know, he was just a really good listener, and I kinda needed it after I messed up my midterms so bad. He showed me a pic of his midterms and he got two points lower than me, lol.\"",
+		"The girls turned to watch as the object of their affections dusted himself down and began to pick up the broken pieces of the plates he'd dropped. \"Shouldn't we help him, or something?\" Mika muttered, but Nel shook her head.",
+		"\"It's his job,\" she said as she blew the bangs from in front of her eyes. \"I tried to help last time I was in here, but he just got yelled at more. 'Now you're making the customers pick up your slack,' yadda yadda. But we talked a little when his manager wasn't looking.\" A simple, peaceful smile spread over her face as she reminisced. \"He really got me, y'know? Not everyone does. Almost no one does, actually, but he knew just what to say.\" Mika snorted slightly, but found to her surprise each one of her friends was nodding along to that statement as if it perfectly summed up their experience. And one by one, each of their stories followed the same pattern:",
+		"Emma relayed how he'd dropped a bunch of books in the library right in front of her and when they'd talked, she'd found a kindred spirit in him to discuss obscure philosophers with.",
+		"Keiko shared how he'd missed an important goal kick and cost her the soccer game, but then the two of them had mutually confided their career woes.",
+		"\"This is nuts,\" Mika said after she'd heard it all. \"Some guy bumps into all of you and just happens to know exactly what's wrong? Just happens to have the same issues going on or--or knows the same random things you're into? He sounds too good to be true.\"",
+		"She was expecting some kind of realization or distress from her friends... but instead Mika was bombarded by laughter. Even Emma giggled behind her books. \"Too good to be true is right!\" Rina smirked. \"Like, would he have all of us interested in him if he wasn't?\" And more laughter.",
+		"\"You like him too or something?\" Keiko asked. \"Because I think 5 of us is enough.\"",
+		"And they laughed, and they laughed, and they laughed.",
+		"At the end of it all, Mika was left staring in mixed confusion and horror--exacerbated by the carefree expressions on her friends' faces. They had straightaway shifted into gossip and chatter, all with a singular focus... their new object of affection. Mika tried to steer the conversation once, twice, but to no avail: it really seemed like the girls didn't have any interest in talking about anything else. Mika stood up all at once, biting her lip and blinking quickly. \"Well,\" she bit out, \"I'm going to head home.\"",
+		"\"Oh?\" Ally pulled herself away from some story about the boy. \"Lotsa homework?\"",
+		"\"That's right,\" Mika nodded, forcing a smile. \"I'll see you all in class.\"",
+		"They waved her goodbye and she walked out, feeling absolutely sick to her stomach. She was so focused she almost walked right into the topic of her friends' conversation: with a \"whoa!\" and a general clatter, the two ended up in a tangle by the alley beside the diner. Mika picked herself up first and found the third casualty of their collision: a collection of boxes and empty bottles. Mika bent down to help him collect them, casting a suspicious glare as she did. Although she looked him up and down again, once more she couldn't find anything amiss about him. He looked apologetic enough, which only made her more annoyed. He started to say \"sorry\", and she snapped.",
+		"\"Oh, skip it. I ran into you, not the other way around.\" She glared at him, half expecting a sharp retort... but just got a smile in response. His voice was soft when she heard it, and calm.",
+		"\"Rough day?\"",
+		"Mika blinked, then set a frown on her face again. She picked up a box and righted it. \"Yeah, I guess.\"",
+		"\"I get that.\" He nodded and picked one up beside her. \"I'm having a bad day too. Did you see me drop those plates?\"",
+		"\"I did.\"",
+		"\"I noticed,\" he said at last, \"you were about to get up and help me before Nel stopped you. I wanted to thank you for that.\"",
+		"\"Oh.\" Mika blinked. \"Well, you're welcome. I didn't help after all--\"",
+		"\"But you were going to. That means something.\"",
+		"\"Yeah, I guess.\"",
+		"They'd reassembled half of the boxes now. A couple passerby paused to watch them, but no one helped. Why should they? It wasn't their problem.",
+		"\"Tell you the truth,\" he grunted as they stacked the boxes, \"I was having a rough day before the plates.\"",
+		"\"Oh?\"",
+		"\"Yeah. My friends got into this new thing that I don't even understand and...\"",
+		"He trailed off, fully absorbing himself in picking up the bottles, now that the boxes had been righted. Despite herself Mika pressed further. \"And?\"",
+		"\"And it's like they're not my friends anymore,\" he sighed. \"Honestly, I don't even recognize them these days.\"",
+		"\"Yeah, I get that.\" And she did. I'm losing them to you, she thought but didn't say.",
+		"\"I don't know. It's stupid, I guess,\" he chuckled. \"Maybe I'm the one changing.\"",
+		"\"No way,\" she said, temper flaring. \"If they're all changing without you, that's not what friends do. If they're leaving you out? Maybe you're better... without them.\"",
+		"She spent a long moment picking up bottles, head turned down and face hidden. He gave her the time. Then, \"I guess you're right. It's just hard to lose them, you know? After so long.\"",
+		"\"So long,\" she agreed, and bit off the rest. Those five had been her friends for so, so long. And now was it just going to be like this from now on? For a stupid boy? This stupid boy, she reminded herself. He was the problem.",
+		"\"It's not forever, though.\" He said it so sudden--or maybe she was so caught in her thoughts--she looked up in surprise and caught him smiling. What was it about his expression? It was at once tender and sad, flush with a secret hurt that she understood. That maybe only she also understood. \"It's not going to be forever,\" he reiterated, and something about his tone made her almost feel like he knew it was the truth. \"We've had problems before, and we'll have others in the future. I think we'll look back at this in a year and laugh, you know?\"",
+		"\"Yeah... yeah, you're right.\" Now that she thought about it, he absolutely was. They'd all had their disagreements before, but the six of them were inseparable. Split apart by a stupid boy? No way! They'd be back to normal in a week. Ally would find some biker guy, Keiko's eye would get caught by a girl in her sports team, Emma would go back to burying her nose in a book... it would be alright.",
+		"They'd collected all the boxes, all the bottles. The two of them stood and dusted themselves off. \"I can't thank you enough for this,\" he sighed. \"Maybe now my manager won't yell so much at me.\"",
+		"\"Sure,\" she shrugged. \"It was my fault, anyway.\"",
+		"\"Actually, I think it was mine.\"",
+		"\"It was mine.\"",
+		"\"It was--\" he stopped at her sudden faux glare. \"Fine,\" he laughed. \"It was both of our fault.\"",
+		"\"I'll take it.\" She nodded and started away, giving him a casual wave. Maybe he was right. Maybe everything would turn out just fine and her friends would go back to normal. Maybe they'd be laughing and chatting just like always in--she didn't know, maybe a week. Two weeks at the most. At least he didn't seem too bad of a guy. Actually, he'd been really helpful. Maybe that was why everyone liked him so much. She could see it--almost see it. Maybe it was the way his eyes lit up when he smiled, or the way she could see something deeper, something just little painful behind the expression.<br>She smiled without even knowing it as she went walking down the street, kicking a rock in front of her as she thought of him. The clumsy busboy.",
+		"Behind her he watched, half in the alley and half out, covered by shadow.",
+		"Grinning."
+	]
+}
+
 const Did_heaven = {
 	title: "Did it Hurt When you Fell From Heaven?",
 	excerpt: 'The angel sat perched in the hospital window, looking at the cocky patient with an expression of worry on her face.',
@@ -164,7 +262,7 @@ const Frugal_lord = {
 
 const Isekai_delivery = {
 	title: "Isekai Slave Delivery",
-	excerpt: 'Just what an unfair and dishonorable man would say," the slave girl interrupted. "I\'d prefer you\'d told me you were a dirty thief: then at least I\'d believe you."',
+	excerpt: '"Just what an unfair and dishonorable man would say," the slave girl interrupted. "I\'d prefer you\'d told me you were a dirty thief: then at least I\'d believe you."',
 	summary: "A man born again into a fantasy realm orders a slave girl to live out his fantasies of being a savior--but finds her utterly unimpressed.",
 	img: "",
 	to: "/isekai_delivery",
@@ -180,6 +278,24 @@ const Isekai_delivery = {
     "Toshi sputtered. He searched for words. This wasn't how he'd expected things would go, not at all. What other lines had he prepared? \"I am a fair and honorable man,\" he started, but never finished.<br>\"Just what an unfair and dishonorable man would say,\" the girl interrupted. \"I'd prefer you'd told me you were a dirty thief: then at least I'd believe you.\"",
     "Toshi opened his mouth and then closed it. At once his throat felt very, very dry. \"I mean you no harm,\" he offered.<br>\"Then you can stay away from me,\" she snapped, \"and I'll stay here in this barrel.\" And as she said, the slave ducked back into the barrel and curled up in its bottom. It couldn't have been comfortable.",
     "Toshi just stood there, panicking, no longer at all sure of what to do with himself.<br>This wasn't at all how his books had gone."
+	]
+}
+
+const Requiem = {
+	title: "Requiem",
+	excerpt: "The second time, it was in the den of his father's home while the old man's revolver slowly slipped from his wrinkled hand. By then, he was hooked.",
+	summary: "A man hears a terrible, wonderful melody when the soul leaves the body. Of course he endeavors to hear it again.",
+	img: "",
+	to: "/requiem",
+	article: [
+		"He heard it first at his mother's hospital bed, woven somewhere between the life support's beeps and the slow gurgle of her oxygen tank.<br>The second time, it was in the den of his father's home while the old man's revolver slowly slipped from his wrinkled hand. By then, he was hooked.",
+		"He'd tried at first to describe the sound, to those who would listen, but he never knew quite what to say. In his more eloquent moments he likened it to the sweetest, softest chorale music sung in a towering chapel hall. In his cups he called it a song that felt like a mother's touch. The rest of the time, he didn't call it anything at all: he'd learned that people didn't like him talking about hearing things. They tended to ask if he'd had help or talked to someone, and he had. The experts recommended pills, most of them, but they had made him quiet. Made him crazy. Made him lose time here and there. Finally he stopped taking them, and stopped scheduling meetings. He had a vague sense that the experts were quietly relieved.",
+		"It took a long time until he heard it again after that. Perhaps it was because he believed the experts, for a while. It could have been because he felt he shouldn't, that it was wrong for him to hear. And he made an effort. He went to school, and he went to work. So it wasn't his fault that he came to major in medicine: it just came naturally. And it wasn't his fault a part-time job at the university's clinic became a part-time job at a nursing home, and even then he did not hear it for some time. Even then working with the elderly, at the edge of this mortal coil, many passed away nearly in his arms without one chord of that angelic music. He began to think he really was crazy! But just at the end of his rope, when finally he couldn't stand it any longer--he heard it.",
+		"She was only sixty, the woman who died that night. Her name was Alice and she loved chess. He would play her in between his shifts, winning now and then before he discovered she was taking it easy on him. He had spoken with her often: a welcome change from the scattered, aged inhabitants of the nursing home, she told him jokes and funny stories. She said her stay there was temporary, and that she had great plans to see a particular park and its web-footed inhabitants.",
+		"And then she was dead.",
+		"It was time for their chess match and instead of sitting lively in her chair, legs crossed and a smile on her face, she was in her bed. Her skin was thin and nearly translucent. Her spirit and her laughter were gone. And instead, on the cool breeze grazing the curtains... he heard it. Like an angel's melody. Like a lover's song heard on the doorstep, hat already off. Like a beckoning home. It was gone in minutes, but he heard it ringing in his ears for hours after.",
+		"He supposed it was then, examining the fatal dose of sleeping medicine that had been mistakenly given to her, when he truly embraced the fact he was different. He supposed it was then, pocketing the bottle of pills, when he knew what he would do.",
+		"Because he would hear that music again, at any cost."
 	]
 }
 
@@ -249,7 +365,7 @@ const Darker_dream = {
 
 const Cultist_rose = {
 	title: "Cultist Simulator: Victor and Rose",
-	excerpt: "There was a secret to the path a knife followed: just as a traveler followed the best-worn paths on a jaunt over the Continent, so a knife took the path of least resistance.",
+	excerpt: "There was a secret to the path a knife followed: just as a traveler followed the best-worn paths... so a knife took the path of least resistance.",
 	img: "rose.png",
 	summary: "Victor and Rose, sibling knife-wielding killers, find their way unerringly to the service of somone who will change everything--them foremost.<br>Characters from <a href='http://weatherfactory.biz/cultist-simulator/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game.",
 	to: "/cultist_rose",
@@ -439,28 +555,34 @@ const Midna_lament = {
 	]
 }
 
+const stories = {
+	american_disbelief: American_disbelief,
+	death_escape: Death_escape,
+	real_magic: Real_magic,
+	harem: Harem,
+	did_heaven: Did_heaven,
+	heracles: Heracles,
+	max_noir: Max_noir,
+	tinker_spellcaster: Tinker_spellcaster,
+	frugal_lord: Frugal_lord,
+	isekai_delivery: Isekai_delivery,
+	requiem: Requiem,
+
+	cultist_caro: Cultist_caro,
+	darker_dream: Darker_dream,
+
+	cultist_rose: Cultist_rose,
+	rose_a: Rose_a,
+
+	zelda_songs: Zelda_songs,
+	saria_minuet: Saria_minuet,
+	malon_song: Malon_song,
+	ruto_serenade: Ruto_serenade,
+	zelda_lullaby: Zelda_lullaby,
+	nabooru_requiem: Nabooru_requiem,
+	midna_lament: Midna_lament,
+}
 
 export {
-	American_disbelief,
-	Death_escape,
-	Did_heaven,
-	Heracles,
-	Max_noir,
-	Tinker_spellcaster,
-	Frugal_lord,
-	Isekai_delivery,
-
-	Cultist_caro,
-	Darker_dream,
-
-	Cultist_rose,
-	Rose_a,
-
-	Zelda_songs,
-	Saria_minuet,
-	Malon_song,
-	Ruto_serenade,
-	Zelda_lullaby,
-	Nabooru_requiem,
-	Midna_lament,
+	stories
 }
