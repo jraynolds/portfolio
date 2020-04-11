@@ -71,6 +71,12 @@ Vue.use(VueRouter)
     name: 'Darker than Black: I Dream',
     component: () => import('@/views/articles/Darker_dream.vue')
 	},
+	// Rose + Victor
+	{
+    path: '/stories/rose_a',
+    name: 'Rose_a',
+    component: () => import('@/views/articles/rose and victor/Rose_a.vue')
+  },
 	// Sad songs
 	{
     path: '/stories/saria_minuet',
