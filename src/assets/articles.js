@@ -8,7 +8,7 @@ const American_disbelief = {
 	to: "american_disbelief",
 	characters: [ "Isaiah Colwell", "Sheriff Hammond" ],
 	aliases: [ "Skeptic", "Sheriff" ],
-	elements: [ "Romance", "Longing" ],
+	elements: [ "Mystery", "Old West" ],
 	article: [
 		"<em>What’s better than the American Old West? Well, the West when it was raw and untamed and full of things that you might call magic or you might call superstition or you might call a tall tale. But there’s something about those tall tales, haven’t you noticed? The more people tell them, the taller they get. The realer they get. The more they start to be able to reach their fingers through the veil between story and reality and grab hold.</em>",
     "<em>Some good friends of mine have done a Kickstarter campaign for an Old West RPG in this setting. It’s finished, but if you want to give it a look be my guest. The name is “American Sunset,” and they asked me to write a short piece on it.</em>",
@@ -62,6 +62,9 @@ const Death_escape = {
 	summary: "The Hero finds himself utterly at a loss when the Lich King is defeated. What is a hero to do when evil has been extinguished? What is he to do but to concern himself with bringing back the souls he's lost?",
 	img: "",
 	to: "death_escape",
+	characters: [ "Hero" ],
+	aliases: [ "Wizard" ],
+	elements: [ "Loss", "Morality", "Magic" ],
 	article: [
 		"I turned away when the Death King pointed his finger at me, and I think I'll always regret that.",
     "We had him dead to rights, you know. Simon had plunged his lance through the thing's rotten ribcage and Alan had just smashed the pendant he held his life in. Zara had summoned licks of flame that were eating him alive: all he had time for was a single, last-ditch effort. A pointed finger, a rasped word, and a ray of something purple that turned my flesh near to ice when it passed me by. I had the gall to feel a sense of satisfaction until I heard a stifled gasp behind me. Until I heard the fading laugh from our mortal enemy and turned to see the look of glassy-eyed shock on Anastasia's face. She fell almost soundlessly and when I caught hold of her she weighed less than a feather. She was gone.",
@@ -78,6 +81,8 @@ const Real_magic = {
 	summary: "A man disillusioned with stage magic wants to see real magic, just once. It turns out to be a very unfortunate wish.",
 	img: "",
 	to: "real_magic",
+	aliases: [ "Detective", "Faust" ],
+	elements: [ "Horror", "Magic", "Intrigue" ],
 	article: [
 		"Magic wasn't magic if you could see it from the wings. Out there in the half-lit booths, around the tables heaped with wineglasses, Nathan was sure it was more impressive to see a rose appear from nowhere. To see a card revealed--the right card, the chosen card. From the wings on the side of the stage, Nathan saw a different kind of show. He saw the rose slipped out of the magician's pocket a moment earlier, and the card swapped out halfway through the shuffle. He saw the force, the palm, the ditch, the load. He saw the trick for what it was, and felt...<br>disappointed.",
 		"It was a silly emotion to feel, almost childish. Of course magic wasn't real: rabbits didn't simply appear inside hats. They came from somewhere and likely went somewhere as well. You couldn't break the laws of nature. Only one magician had ever done that.",
@@ -104,6 +109,7 @@ const Harem = {
 	summary: "A gaggle of girls make eyes at their waiter while the last girl wonders what makes him so special.",
 	img: "",
 	to: "harem",
+	elements: [ "Romance", "Intrigue" ],
 	article: [
 		"It was a strange sight, six beautiful girls sitting at a table in a run-down little restaurant. They were supremely out of place in such a shabby diner: each in their own way looked as if she could have been a supermodel, or on the front page of some fashion magazine, or on the television--something bright and clean and high-profile. The other patrons, mostly sweat-stained men and the odd strung-out woman, stared openly at the six. The girls didn't seem to care: they only had eyes for the young man bringing their drinks. They shot a few remarks his way and giggled as he fumbled his way through a response, and still their eyes followed him when he left to bus the other tables. Only one of the girls seemed at all able to tear her gaze away from him, and she turned back to her friends with an incredulous expression on her face.",
 		"\"Him?! Really?\"",
@@ -176,6 +182,8 @@ const Did_heaven = {
 	summary: "A playboy suffers an incredible injury, one that should have easily killed him--and yet he walks right out of it with almost superficial damage. He doesn't seem concerned but the Angel who came down from Heaven to collect his soul--who claims he was supposed to die--is.",
 	img: "",
 	to: "did_heaven",
+	aliases: [ "Playboy", "Angel" ],
+	elements: [ "Romance", "Intrigue" ],
 	article: [
 		"\"Mr. Emry, you know you're not allowed... oh.\"",
     "The nurse peered around the hospital room, doing her best to look past the handsome man in the invalid's bed. He leaned back, unbandaged arm behind his head, seemingly without a care in the world. She didn't like how his eyes roved over her, didn't like the way her nurse's gown seemed no impediment to his gaze. Or she did like it, and didn't like that she liked it. \"Something wrong?\" he asked, and she gave a little start. The nurse reached up to tuck a lock of hair behind her ear but stopped herself halfway. \"No, nothing. I just thought I heard someone in here.\" She frowned at the open window with its fluttering drapes and started towards it but he held up a hand: \"Please, I like the fresh air.\" A smile curved his full lips. \"It can be our little secret.\" Despite herself, the nurse flushed. She had already spent longer here than she intended. She had her rounds to do. \"Fine,\" she said as curtly as she could manage. \"But no more getting out of bed, Mr. Emry. By all rights, you shouldn't even be alive.\" She'd hoped the sentiment would wipe that devil-may-care expression off his face but it had done the opposite: he seemed cockier, almost. Like he was pleased to be reminded of how close he'd come to shuffling off this mortal coil. The nurse pushed herself along, forcing her legs to move. She realized belatedly that one of her hands was toying with a fold of her scrubs and tugged it away, furiously blushing.",
@@ -190,6 +198,9 @@ const Max_noir = {
 	summary: "A hardboiled detective playing to all the Noir cliches is assigned a straight-laced partner who begins to discover that reality seems to be adapting to the detective's illusions.",
 	img: "",
 	to: "max_noir",
+	characters: [ "Elijah Wesson", "Max \"Hard\" Noir" ],
+	aliases: [ "Detective", "Gumshoe" ],
+	elements: [ "Intrigue", "Murder", "Trope inversion" ],
 	article: [
 		"Elijah Wesson stood stiffly in the Police Chief's office, looking every bit the new recruit he was. Chief Lester, first and last name offered on the plaque on his desk, muttered into his rotary phone and took sips from his rapidly-cooling coffee. Elijah ignored the repeated flicks of the Chief's eyes: \"sit down\", he mouthed, but gave up when the recruit just shook his head. At last the phone call finished. He set down the receiver and shuffled papers around on his desk. \"Elijah. Mind if I call you Eli?\"",
     "\"Prefer not, sir,\" the recruit replied. \"Elijah is the name my father gave me and if it's all the same, I'll keep it.\"",
@@ -216,6 +227,9 @@ const Heracles = {
 	summary: "A medieval larger-than-life hero's companion and ally explains his downfall as he is put on trial for the hero's murder. He insists that the killing was more than moral--it was necessary.",
 	img: "",
 	to: "heracles",
+	characters: [ "Heracles" ],
+	aliases: [ "Hero" ],
+	elements: [ "Mystery" ],
 	article: [
 		"I don't know what the three witches promised him, and I didn't know what they took in return. But I know Heracles wouldn't speak a word of it to us--his closest allies--afterwards. We'd almost forgotten about it, we three, and might have missed the signs completely if it wasn't for Diana's watchful eye. She always knew Heracles best, or wanted to, and she came to me that first night it happened. ",
     "The fire crackled, and the wine flowed. We four traded stories and laughter after another successful fight, although of course we hadn't contributed much. Alexander asked the question that set all this in motion, although of course there could have been signs far before--and perhaps if we'd been more watchful we would have seen them. Things wouldn't have had to end the way they did. He said, \"Like that time at Knossos!\" and we all laughed. All except Heracles, who repeated the statement like he didn't quite understand. Again we laughed--for how could we not? Of all of us, he should remember! And he waved it off. We were only too glad to follow suit (Alexander blamed it on the Gorgon's wine) but Diana began to worry. And she was right to; you see, we came to find that forgetting too much can change a man indelibly, from the bottom up. It can make a monster of even the greatest souls. Perhaps now you understand how our nation's greatest hero became responsible for our nation's worst massacre.",
@@ -229,6 +243,8 @@ const Tinker_spellcaster = {
 	summary: "A sorcerer haunted by his past searches for a place to die. Instead he is rescued by a struggling outland town that claims him and declares him a new man.",
 	img: "",
 	to: "tinker_spellcaster",
+	aliases: [ "Damned" ],
+	elements: [ "Magic", "Rebirth" ],
 	article: [
 		"He had been walking through the snow for eight hours, and had made several observations he could be sure of: after about an hour, one's legs began to burn. After four hours, all feeling went out of them. And after seven, one tended to lose track of time. The man in the cloak trudged on, carving dual trenches through the snow as soft flakes drifted down. Magic could solve all three of these problems, and he knew the spells: perhaps a strengthening enchantment for the legs, or a spell to quicken the blood. Perhaps a conjured hourglass to track the time. They were easily cast.",
     "The hours wore on. He'd observed something new by this time: after eleven (was it eleven?) hours, one's attention began to waver. Simple things like the snow-covered boughs of a faraway tree became impossible to look away from. A solitary snowflake would capture his attention as it fell through the air, slowly spiraling. More curiously, it would hold it even after the flake disappeared--instead of neatly shifting his focus to the next drifting object, the link would be broken. He would look at nothing at all. And after some time, he would stumble. He would fall in the snow, coating his cloak with dissolving white. He would grow colder still. He would come closer to death. Perhaps it wasn't too late: perhaps a large flame could dry him and chase the chill from his bones.<br>He trudged on.",
@@ -243,6 +259,8 @@ const Frugal_lord = {
 	summary: "A princess captured by the evil Demon lord discovers his bare-bones, no-frills life.",
 	img: "",
 	to: "frugal_lord",
+	aliases: [ "Hero", "Princess" ],
+	elements: [ "Humor" ],
 	article: [
 		"They tried to protect their princess, but it was hopeless. How could they defend her against the Demon Lord, with their puny swords and fragile armor? How could they defend against the wind with shields? How against the cold, with matches?",
     "They stood lined up in little rows, spears facing forwards, bristling like so many steely porcupines. These were trained and veteran soldiers, chosen specifically because of their outstanding service. And still they wavered, still they shifted from side to side in their metal boots. Why not? To them it was exactly like facing down an enemy nation that had planted its boots directly in their territory. Who had overcome every obstacle thrown their way. Who had even defeated the heavensent warriors prophesied to be able to topple him. In fact, it was worse: it was just one man.",
@@ -266,6 +284,8 @@ const Isekai_delivery = {
 	summary: "A man born again into a fantasy realm orders a slave girl to live out his fantasies of being a savior--but finds her utterly unimpressed.",
 	img: "",
 	to: "isekai_delivery",
+	aliases: [ "Villain", "Princess" ],
+	elements: [ "Humor", "Trope inversion" ],
 	article: [
 		"He looked a fair sight out of place, the young Japanese man in front of the back-alley merchants. They might have called him an herbivore, perhaps a shrinking violet, if they'd known what that meant--but they didn't even know what \"Japanese\" meant. Nor did they know of Japan, or Earth, or anything approaching a cheeseburger.",
 		"At first it had been difficult. Only a few of his classmates had survived the first year: possessed by dreams of glory and daring-do, they went running off into dragons' dens and worse. He'd seen a few, now and then, in the gutters: as he'd made his way through the slums to meet these fine gentlemen the first time, he'd spied a girl he remembered from his study hall. She'd been dressed in little better than rags, and had a dirty, bruised face--of course, he'd turned away. He didn't have time for charity.",
@@ -287,6 +307,8 @@ const Requiem = {
 	summary: "A man hears a terrible, wonderful melody when the soul leaves the body. Of course he endeavors to hear it again.",
 	img: "",
 	to: "requiem",
+	aliases: [ "Scientist" ],
+	elements: [ "Horror", "Intrigue" ],
 	article: [
 		"He heard it first at his mother's hospital bed, woven somewhere between the life support's beeps and the slow gurgle of her oxygen tank.<br>The second time, it was in the den of his father's home while the old man's revolver slowly slipped from his wrinkled hand. By then, he was hooked.",
 		"He'd tried at first to describe the sound, to those who would listen, but he never knew quite what to say. In his more eloquent moments he likened it to the sweetest, softest chorale music sung in a towering chapel hall. In his cups he called it a song that felt like a mother's touch. The rest of the time, he didn't call it anything at all: he'd learned that people didn't like him talking about hearing things. They tended to ask if he'd had help or talked to someone, and he had. The experts recommended pills, most of them, but they had made him quiet. Made him crazy. Made him lose time here and there. Finally he stopped taking them, and stopped scheduling meetings. He had a vague sense that the experts were quietly relieved.",
@@ -331,6 +353,9 @@ const Darker_dream = {
 	summary: 'The blind Doll Yin hesitates as she "watches" her companion Hei sleep, conflicted by her feelings for him. For after all, Dolls do not feel. Do they?<br>Characters from the <a href="https://en.wikipedia.org/wiki/Darker_than_Black">Darker than Black</a> Anime.',
 	img: "yin.png",
 	to: "darker_dream",
+	characters: [ "Yin", "Hei" ],
+	aliases: [ "Doll", "Professional" ],
+	elements: [ "Romance", "Longing" ],
 	article: [
 		"I dream of smiling.",
     "In my dreams I raise my hands to my lips and I lift the corners of my mouth so a curve appears.",
@@ -393,6 +418,9 @@ const Saria_minuet = {
 	excerpt: "Now I don’t think I’d care how many chains it would take to keep you here, just as long as you did stay.",
 	img: "saria.jpg",
 	to: "saria_minuet",
+	characters: [ "Saria", "Link" ],
+	aliases: [ "Dryad", "Hero" ],
+	elements: [ "Romance", "Longing" ],
 	summary: "Saria, Link's earliest friend and the loneliest member of the Kokiri in their isolated forest.<br/><br/><em>Why would he want me, anyway? He's a hero and I'm young, immature, undeveloped. Naive.</em>",
 	article: [
 		"I call you the one that got away.",
@@ -422,6 +450,9 @@ const Malon_song = {
 	summary: "Malon, Link's first friend in the fields of Hyrule, irrepressible farm girl and cheery worker.<br/><br/><em>It was a nice dream while it lasted. But he's a hero and I'm just Malon the farm girl. Dirty, ugly, worn down. Used goods.</em>",
 	img: "malon.jpg",
 	to: "malon_song",
+	characters: [ "Malon", "Link" ],
+	aliases: [ "Peasant Girl", "Hero" ],
+	elements: [ "Romance", "Longing" ],
 	article: [
 		"Would you laugh if I said the most interesting thing to ever happen to me was you?",
     "I know, I know. A real farm girl, making trips to the castle every week, living in the midst of great times. What’s some lame fairy boy got to offer?",
@@ -444,6 +475,9 @@ const Ruto_serenade = {
 	summary: "Ruto, Link's self-proclaimed fiancee, princess to the Zora. Snooty and self-centered as a girl, commanding as a woman.<br/><br/><em>It's not fair, not even a little bit--although I know better now. I forced you into it. But you </em>did<em> promise.</em>",
 	img: "ruto.jpg",
 	to: "ruto_serenade",
+	characters: [ "Ruto", "Link" ],
+	aliases: [ "Heiress", "Hero" ],
+	elements: [ "Romance", "Longing" ],
 	article: [
 		"You should be grateful: you’re the only boy I’ve ever waited for.",
     "It’s not every day a princess offers to marry you, you know. It’s a once-in-a-lifetime opportunity!",
@@ -467,6 +501,9 @@ const Zelda_lullaby = {
 	summary: "Zelda, Link's ineffable and powerful princess. His destination and his goal... uncertain of herself.<br/><br/><em>I know you've chosen me, and I know I should be happy. I am, more than I've ever been, luckier than I've ever known. But I'm not who you think I am.</em>",
 	img: "zelda.jpg",
 	to: "zelda_lullaby",
+	characters: [ "Zelda", "Link" ],
+	aliases: [ "Princess", "Hero" ],
+	elements: [ "Romance", "Longing" ],
 	article: [
 		"You made a mistake when you chose me.",
     "I don’t know what sorts of stories you’ve heard about princesses, but I can assure you I’m a very poor example of one. We’re supposed to be gentle, but I’m not always. We’re supposed to be kind, but I can be mean. We’re supposed to be genial and calm and ephemeral but sometimes I think I’m more at home in the dirt than I am in a big, empty castle.",
@@ -488,6 +525,9 @@ const Nabooru_requiem = {
 	summary: "Nabooru, Link's flirtatious and confident ally through the passage of time. Of the Gerudo, molded by the desert.<br/><br/><em>I'm used to being the one in control at all moments in my life--but around you, I seem helpless. I have many secrets, and if you choose me I'll tell you one.</em>",
 	img: "nabooru.png",
 	to: "nabooru_requiem",
+	characters: [ "Nabooru", "Link" ],
+	aliases: [ "Harlot", "Hero" ],
+	elements: [ "Romance", "Longing" ],
 	article: [
 		"If only I could turn back time.",
     "We of the Gerudo are always looking for strong, capable husbands. I don’t mean to say when I first saw you I was already envisioning marriage: if I said that it wouldn’t be true and we Gerudo don’t like to lie. Another way I differ from that other, more troublesome thief. Have you defeated him already? If you haven’t, I’m sure it’ll only be a matter of time.",
@@ -514,6 +554,9 @@ const Midna_lament = {
 	summary: "Midna, of the Twili and possessed of a devilish wit. All charm and all coyness, and yet?<br/><br/><em>It was over before I knew it, and of course I could never blame you for choosing who you did. But just because I can't blame you doesn't mean it can't hurt.</em>",
 	img: "midna.jpg",
 	to: "midna_lament",
+	characters: [ "Midna", "Link" ],
+	aliases: [ "Imp", "Hero" ],
+	elements: [ "Romance", "Longing" ],
 	article: [
 		"I liked you better as a stupid dog.",
     "You were cute in a wolf way when I found you, you know--all agitated and barky trying to get used to having four paws instead of two. Without me, you'd probably still be stuck in that crummy jail cell, chained up and rotting away! I guess if you put it like that, I'm the real hero of Hyrule. I found the Hero of Time and made sure he wouldn't just waste away as a little wolfy! Out of the goodness of my own heart, of course.",
@@ -524,6 +567,134 @@ const Midna_lament = {
     "And when I remember being in your world I'll remember those early days running around fighting Zant's beasts, riding on my wolfy's back. Running my hands through your fur and teasing you. Feeling the wind on my skin.<br>Maybe if I'd snared you then you'd still be mine, and this world of twilight would be a little less dark. "
 	]
 }
+
+
+
+
+
+const Glimmer_bot = {
+	title: "Glimmer and Gloom bot",
+	excerpt: "A bot that plays Flight Rising's flash game 'Glimmer and Gloom' for you. Coded in python.",
+	summary: "Mostly built on the backs of others' modules, but with some clever avoidance of any logic or objects. Isn't it nice when screen parsing happens this fast?",
+	img: "glimmer.jpg",
+	to: "glimmer_bot",
+	article: [
+		"Sometimes there's just so much grinding that goes into playing a fun game that you can hardly get to the parts you want to play. My wonderful girlfriend found this to be the case when playing Flight Rising, a dragon breeding browser game that relies on daily flash games to build up treasure troves.",
+		"Here's a bot that plays it for you! I of course can't guarantee it'll be perfectly safe for your account--but that's the price we have to pay sometimes.",
+		"<img width='800' src='/images/headers/glimmer.jpg'>",
+		"There's more info on my <a href='https://github.com/jraynolds'>github</a>, if you're interested to find it!"
+	]
+}
+
+const Timeliner = {
+	title: "Timeliner",
+	excerpt: "A writing/notetaking organization tool, showing where characters enter and exit. Coded in Javascript, Vue and p5.",
+	summary: "I have many plans for this little utility: someday they may even manifest. But for now, it's at least useful.",
+	img: "timeliner.png",
+	to: "timeliner",
+	article: [
+		"Not so long ago, I inherited La Morte D’Arthur from my grandfather, rest his soul. Besides being an account of Arthur’s life, it also refers to the people who surrounded him: his father, his mother, his opponents and so on.",
+		"Here’s the problem. Entire chapters are devoted to confusing battle descriptions and events happen that seem impossible to reconcile with each other. The Lady of the Lake gets her head chopped off... then comes back?",
+		"A long time ago, reading The Making of the Atomic Bomb, I discovered there are no good programs or utilities for word processing that handle character-based tracking or timelining. Let’s say I wanted to know about only Feynman’s contributions to Atomic Bomb development in the book: would I be able to do something more nuanced than Ctrl+F in Word? Evernote? LibreOffice? OpenOffice? Not so likely.",
+		"So I made something that can handle that. It’s coded in Javascript, p5 and Vue.",
+		"<img width='800' src='/images/headers/timeliner.png'>",
+		"If you want to try it out for yourself, be my guest. Just don’t try to put a whole book in there. It’s fast, but not that fast. I’ll continue to update the application. Feel free to follow along on <a href='https://github.com/jraynolds/timeliner'>github</a>, or play with it <a href='https://vue-timeliner.netlify.com/'>online</a>."
+	]
+}
+
+const Ping_graph = {
+	title: "Ping Graph",
+	excerpt: "A Java utility for those with unstable internet.",
+	summary: "I've spent a long, long time trying to play multiplayer games on less-than-stable internet. Although this utility can't exactly fix poor connection, it can hopefully help you track and diagnose.",
+	img: "pingGraph.png",
+	to: "ping_graph",
+	article: [
+		"If you’ve lived outside of a major city, chances are you know what it’s like to have unpredictable internet. Maybe that means random spikes of >500ms, maybe it means periodic disconnections, or maybe it means your bandwidth is awful. All three were (are) true for me when I lived with my parents, so I searched all around for something that could help me find or prepare for it. I found several utilities that did some of what I wanted, but nothing that did everything–and then they stopped working completely.",
+		"Now that I live in a proper city, I’m finding that the need is still there. It’s a little less pressing, sure, but still worth working on. That’s why I fiddled around with JFreeChart and came up with a little tool that did most of what I wanted it to.",
+		"<img width='800' src='/images/headers/pingGraph.png'>",
+		"Here’s the utility. You can choose from Google, Bing or Localhost for preset addresses to ping, or enter your own URL. You can change how often it pings and even save a log as a text file. You can change its behavior between always-on-top and not, and it’s resizable.",
+		"One other thing: I’ve built in “break points” where the background color will change based on average ping. Fastest is blue, fast is green, slow is yellow, and slowest is orange-red. When no server can be reached, the background turns bright red. You can change these to better suit your average internet ping speed.",
+		"I’ll continue to update the application. Feel free to follow along on <a href='https://github.com/jraynolds/pinggraph/tree/master'>github</a>, or download a runnable .jar from <a href='https://github.com/Jaspirian/pinggraph/raw/master/PingGraph.jar'>this link</a>."
+	]
+}
+
+const Fractal_generator = {
+	title: "Fractal Tree Generator",
+	excerpt: "A fractal tree generator utility coded in Java.",
+	summary: "It’s in the very early stages, and it’s not much of an application at all. But if you like it, come on by and check it out. If nothing else, it sure is relaxing to look at.",
+	img: "fractalTree.png",
+	to: "fractal_generator",
+	article: [
+		"What’s fun? Fractal, recursively-made objects. What’s more fun than that? Fractal, recursively-made objects that unfold randomly. What’s more fun than even that? Objects that don’t just unfold randomly–they grow in unpredictable but organic ways that the eye finds pleasing. This fun little Java application does just that.",
+		"<img width='800' src='/images/headers/fractalTree.png'>",
+		"It’s in the very early stages, and it’s not much of an application at all. But if you like it, <a href='https://github.com/jraynolds/Fractal-Tree'>come on by</a> and check it out. If nothing else, it sure is relaxing to look at."
+	]
+}
+
+
+
+
+
+
+const Human_reignition_project = {
+	title: "The Human Reignition Project",
+	excerpt: "A mildly dystopic, near-future visual novel about the isolation technology brings.",
+	summary: "Initially a writer hired to work on the Hitomi character and storyline, I'm now principal coder and a major writer as well.<br>Mid-2020 release expected.",
+	img: "hrp.jpg",
+	to: "human_reignition_project",
+	article: [
+		"<em>A lonely guy joins a group about reestablishing human connection in the mildly dystopic future--only to discover a deadly plot to uproot the nature of technology.</em>",
+		"Kickstarted with additional support from publisher <a href='https://sekaiproject.com/'>Sekai Project.</a>",
+		"The Human Reignition Project is a Visual Novel coded in Ren'py, boasting 6 disparate storylines each with their own central character. My artistic direction can be most clearly seen in the character--and storyline--of Hitomi, a peppy girl who throws herself into her current passion with an intense and dangerous zeal.",
+		"<img width='500' src='/images/headers/hrp.jpg'>",
+		"Although I began work as a writer for the Hitomi route, my role in the development of the game has expanded over time. I'm now the principal coder as well as a one of the main storyline writers. However, I'm still 100% involved in the Hitomi storyline, so everything in her story is of my creation.",
+		"For more information on this ongoing project you can check the <a href='https://www.kickstarter.com/projects/sekaiproject/the-human-reignition-project-an-english-visual-nov/'>Kickstarter page</a>, which is updated bi-monthly with progress reports and insight into the production of the game. We also have a <a href='https://discordapp.com/invite/PUA5t9s'>Discord group</a>, available to those who aren't Kickstarter backers as well.",
+		"Estimated release of mid-2020."
+	]
+}
+
+const Dragons_teeth = {
+	title: "Dragon's Teeth",
+	excerpt: "A choose-your-own-adventure (rhythm?) game about a deathless mercenary group and the boy thrust into it.",
+	summary: "A boy traveling to become a knight is killed on the road, but is given a second chance at life and a Faustian bargain. A mercenary group takes him in, but they're more than they seem...",
+	img: "",
+	to: "dragons_teeth",
+	article: [
+		"<em>You should have seen them, standing there in the swamp like so many battlefield scarecrows. In their pitted lashed-together armor, holding their rusted weapons, tall and small, men and women of no common land or race or even age</em>.",
+		"<em>You should have seen them, standing against three battalions of the king's men. Outnumbered by a factor of ten. If each slew thirty men, it wouldn't have been enough.</em>",
+		"<em>They stood there ankle-deep in the muck as if they could persuade the king by the force of their conviction alone, that the ones fleeing should be left alone. That they should be allowed to live their lives free.</em>",
+		"<em>You should have seen them stand their ground when the finely-draped horses and the knights in golden armor began to move in. The king's men shone like a treasure hoard in the afternoon sun, all riding with the strength of their grandfathers behind them, their sterling pedigrees and their years of service.</em>",
+		"<em>They stood no chance, these mercenaries in the mud. Not even a hundred. Standing on their own two feet.</em>",
+		"<em>But when the knights fell upon them, they broke like water on a sharp stone. The golden armor was stained with red and their horses thrashed. The knights were dragged from their lofty perches and set upon as if by starving dogs. They screamed, in the mud and the muck, and they gurgled. They bled. They died.</em>",
+		"<em>But the mercenaries were not invincible. If a sword met them it bit deep. If a blow found them it drew blood. They were not invincible.</em>",
+		"<em>You should have seen them standing there, hands and feet and limbs missing, life draining. But while their hearts still beat, they fought. And they killed. Like madmen, they killed.</em>",
+		"<em>You should have seen them fall, one by one, chopped to bits. Mangled. And finally they did not rise.</em>",
+		"<em>You should have seen the king's finest generals gnash their teeth over their bitterly-won victory. How they clenched their fists! How they screamed and spat! They stood there in the muck and shook their swords at the setting sun.</em>",
+		"<em>They stood there amongst eighty dead mercenaries and five hundred massacred knights, half a day lost. The rebels gone.</em>",
+		"<em>You should have seen the last stand of the Dragon's Teeth.</em>",
+		"<em>And you should have seen them start to stir underneath the muck, when all the knights had gone.</em>",
+		"Development beginning soon."
+	]
+}
+
+
+
+const Vue_calendar = {
+	title: "Vue Calendar",
+	excerpt: "A simple calendar app, coded in Vue. Created for scheduling in-game MMO events.",
+	summary: "When it comes to scheduling player-created events in games, often people need something better than a shoutbox or a duty finder. Maybe this would help.",
+	img: "vueCalendar.png",
+	to: "vue_calendar",
+	article: [
+		"Player-run events can be one of the things that brings life to an MMO--and makes it feel real, present, and interactive.",
+		"The only problem is that becoming aware of these events, and knowing how to get to them, is often surprisingly difficult. And any good event is bound to have people who want to attend but don't know how, or simply forget!",
+		"<img width='500' src='/images/headers/vueCalendar.png'>",
+		"Here's a little calendar that hopefully will take some of the burden away from the event creator. Coded in Vue, it's designed for the MMO Final Fantasy XIV, which suffers from some of these problems despite its vibrant and thriving playerbase.",
+		"Find it on <a href='https://github.com/jraynolds/eorzeancalendar'>github</a>, or explore it yourself on <a href='https://eorzeancalendar.netlify.com/'>netlify</a>."
+	]
+}
+
+
 
 const articles = {
 	american_disbelief: American_disbelief,
@@ -549,6 +720,19 @@ const articles = {
 	zelda_lullaby: Zelda_lullaby,
 	nabooru_requiem: Nabooru_requiem,
 	midna_lament: Midna_lament,
+
+
+	glimmer_bot: Glimmer_bot,
+	timeliner: Timeliner,
+	ping_graph: Ping_graph,
+	fractal_generator: Fractal_generator,
+
+
+	human_reignition_project: Human_reignition_project,
+	dragons_teeth: Dragons_teeth,
+
+
+	vue_calendar: Vue_calendar,
 }
 
 export {

@@ -13,7 +13,7 @@
 					>
 						<v-img 
 							v-if="card.img"
-							:src="require('@/assets/images/headers/' + card.img)" 
+							:src="'/images/headers/' + card.img" 
 							height="300" />
 						<v-img 
 							v-else
@@ -36,27 +36,8 @@
 						align="center"
 					>
 						<v-row class="pa-2 pt-0">
-							<v-col 
-								cols="12" 
-								style="font-style: italic; text-align: left; font-size: .9em;"
-							>Featuring: 
-								<span v-for="(character, index) of card.characters" :key="character">
-									{{ character }}<span v-if="index != card.characters.length - 1">, </span>
-								</span>			
-							</v-col>
-							<v-col 
-								cols="12" 
-								style="font-style: italic; text-align: right;"
-								class="pt-0" 
-							>Elements: 
-								<span 
-									v-for="(element, index) of card.elements" 
-									:key="element">
-										<span class="gold">{{ element }}</span>
-										<span v-if="index < card.elements.length - 1">, </span>
-								</span>
-							</v-col>
-							<v-col cols="12" class="pa-10" v-html="card.summary" />
+							<StoryDetails :card="card" />
+							<v-col cols="12" class="pa-10" v-html="card.summary" @click="cardBackClick" />
 							<v-col cols="12">
 								Click this card to see more.
 							</v-col>
@@ -70,6 +51,8 @@
 </template>
 
 <script>
+import StoryDetails from "@/components/cards/StoryDetails.vue"
+
 export default {
 	props: {
 		card: Object,
@@ -78,9 +61,23 @@ export default {
 			default: ""
 		}
 	},
+	components: {
+		StoryDetails
+	},
 	data: () => ({
 		isHovered: false
-  }),
+	}),
+	methods: {
+		cardBackClick(e) {
+			// eslint-disable-next-line no-console
+			console.log(e);
+			// eslint-disable-next-line no-console
+			console.log(e.target);
+			// eslint-disable-next-line no-console
+			console.log(e.target.tagName);
+			if (e.target.tagName === "A") e.stopPropagation();
+		}
+	}
 }
 </script>
 

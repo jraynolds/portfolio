@@ -22,17 +22,59 @@ Vue.use(VueRouter)
     }
 	},
 	{
+    path: '/coding',
+    name: 'Coding',
+    component: () => import('@/views/Coding.vue'),
+    meta: {
+      title: 'Coding'
+    }
+	},
+	{
+    path: '/games',
+    name: 'Games',
+    component: () => import('@/views/Games.vue'),
+    meta: {
+      title: 'Games'
+    }
+	},
+	{
+    path: '/websites',
+    name: 'Websites',
+    component: () => import('@/views/Websites.vue'),
+    meta: {
+      title: 'Websites'
+    }
+	},
+	{
+    path: '/about',
+    name: 'About',
+    component: () => import('@/views/About.vue'),
+    meta: {
+      title: 'About'
+    }
+	},
+
+
+	{
     path: '/stories/:article',
     name: '???',
-    component: () => import('@/views/Article.vue'),
+    component: () => import('@/components/Article.vue'),
     meta: {
       title: '???'
     }
 	},
 	{
+    path: '/coding/:article',
+    name: '?????',
+    component: () => import('@/components/Article.vue'),
+    meta: {
+      title: '?????'
+    }
+	},
+	{
     path: '/collections/:collection',
     name: '????',
-    component: () => import('@/views/Articles.vue'),
+    component: () => import('@/components/Articles.vue'),
     meta: {
       title: '????'
     }

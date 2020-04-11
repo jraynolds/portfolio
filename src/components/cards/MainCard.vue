@@ -6,7 +6,7 @@
 					<v-card color="black" style="color: gray" justify="center" align="center">
 						<v-img 
 							v-if="card.img"
-							:src="require('@/assets/images/' + card.img + '.png')" />
+							:src="'/images/' + card.img + '.png'" />
 						<v-img 
 							v-else
 							:src="'https://i.imgur.com/OANxEOR.png'" />

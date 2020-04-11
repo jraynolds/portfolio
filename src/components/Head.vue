@@ -31,7 +31,7 @@
 				> 
 					<v-img 
 						id="navImg"
-						:src="require('@/assets/images/icon.png')"
+						:src="'/images/icon.png'"
 						height="78"
 						width="75"
 						style="box-shadow: inset 0px 0px 3px 3px black !important"
@@ -43,7 +43,7 @@
 				> 
 					<img
 						id="navSocial"
-						:src="require('@/assets/images/icons/twitter.png')" 
+						:src="'/images/icons/twitter.png'" 
 						style="margin-top: 20px;"
 						height="40"
 						width="40"

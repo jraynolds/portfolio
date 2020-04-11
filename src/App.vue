@@ -26,7 +26,7 @@ export default {
 
 <style>
 main {
-	background: url('assets/images/space.png');
+	background: url('/images/space.png');
 }
 
 .gold {
