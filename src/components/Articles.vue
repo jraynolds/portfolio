@@ -1,7 +1,6 @@
 <template>
 	<v-row class="pa-6 px-8 article">
 		<v-col class="darkbackground">
-			<h1 class="gold">{{ collection.title }}</h1>
 			<p v-for="(paragraph, index) of collection.article" :key="index" v-html="paragraph" />
 
 			<v-row>
@@ -32,14 +31,8 @@ export default {
 		}
 	},
 	beforeMount() {
-		// eslint-disable-next-line no-console
-		// console.log(this.$route.params.collection)
 		this.collection = collections[this.$route.params.collection];
-		// eslint-disable-next-line no-console
-		// console.log(this.collection)
 		this.subArticles = this.collection.subArticles;
-		// eslint-disable-next-line no-console
-		// console.log(this.subArticles)
 	}
 }
 </script>

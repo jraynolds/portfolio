@@ -2,7 +2,6 @@
 	<div class="content pa-8">
 		<v-row class="article darkbackground">
 			<v-col cols="12">
-				<h1 class="gold mb-8">Stories</h1>
 				<h2>Featured</h2>
 				<h3>Some of my more interesting ideas.</h3>
 			</v-col>

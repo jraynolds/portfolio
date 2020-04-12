@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-		<v-row class="pa-10">
+		<v-row class="px-10">
 			<v-col 
 				sm="6"
 				lg="3"

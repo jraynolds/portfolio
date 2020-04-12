@@ -2,7 +2,6 @@
 	<div class="content pa-8">
 		<v-row class="article darkbackground">
 			<v-col cols="12">
-				<h1 class="gold mb-8">Games</h1>
 				<h2>Current Projects</h2>
 				<h3>These are ongoing games in the middle of production.</h3>
 			</v-col>

@@ -1,7 +1,6 @@
 <template>
 	<v-row class="pa-6 px-8 article">
 		<v-col class="darkbackground">
-			<h1 class="gold">{{ article.title }}</h1>
 			<p v-for="(paragraph, index) of article.article" :key="index" v-html="paragraph" />
 		</v-col>
 	</v-row>

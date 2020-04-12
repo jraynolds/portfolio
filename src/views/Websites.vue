@@ -2,7 +2,6 @@
 	<div class="content pa-8">
 		<v-row class="article darkbackground">
 			<v-col cols="12">
-				<h1 class="gold mb-8">Websites</h1>
 				<h3>I create websites, full-stack, as well as single-page applications.</h3>
 				<p>Here are some individual projects I'm particularly proud of.</p>
 			</v-col>

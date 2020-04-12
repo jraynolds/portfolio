@@ -2,7 +2,6 @@
 	<div class="content pa-8">
 		<v-row class="article darkbackground">
 			<v-col cols="12">
-				<h1 class="gold mb-8">Coding</h1>
 				<h3>I specialize in Java-based languages:</h3>
 				<span class="gold">Java</span>, <span class="gold">Javascript</span>, <span class="gold">C#</span>, as well as <span class="gold">python</span> and <span class="gold">p5</span>. This website is coded in <span class="gold">Vue</span>.
 				<p>Here are some individual projects I'm particularly proud of.</p>

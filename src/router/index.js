@@ -2,6 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 
+// import { articles } from "@/assets/articles.js"
+// import { collections } from "@/assets/collections.js"
+
 Vue.use(VueRouter)
 
   const routes = [
@@ -57,27 +60,23 @@ Vue.use(VueRouter)
 
 	{
     path: '/stories/:article',
-    name: '???',
-    component: () => import('@/components/Article.vue'),
-    meta: {
-      title: '???'
-    }
+    name: 'story_article',
+		component: () => import('@/components/Article.vue')
 	},
 	{
     path: '/coding/:article',
-    name: '?????',
-    component: () => import('@/components/Article.vue'),
-    meta: {
-      title: '?????'
-    }
+    name: 'coding_article',
+    component: () => import('@/components/Article.vue')
+	},
+	{
+    path: '/websites/:article',
+    name: 'website_article',
+    component: () => import('@/components/Article.vue')
 	},
 	{
     path: '/collections/:collection',
-    name: '????',
-    component: () => import('@/components/Articles.vue'),
-    meta: {
-      title: '????'
-    }
+    name: 'collection',
+    component: () => import('@/components/Articles.vue')
 	}
 ]
 
