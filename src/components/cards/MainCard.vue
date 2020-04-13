@@ -6,7 +6,8 @@
 					<v-card color="black" style="color: gray" justify="center" align="center">
 						<v-img 
 							v-if="card.img"
-							:src="'/images/' + card.img + '.png'" />
+							:src="'/images/' + card.img + '.png'"
+							:style="[card.reversed ? { transform: 'rotate(180deg)'} : {}]" />
 						<v-img 
 							v-else
 							:src="'https://i.imgur.com/OANxEOR.png'" />
