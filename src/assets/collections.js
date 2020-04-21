@@ -4,7 +4,7 @@ const Cultist_rose = {
 	img: "rose.png",
 	summary: "Victor and Rose, sibling knife-wielding killers, find their way unerringly to the service of somone who will change everything--them foremost.<br>Characters from <a href='http://weatherfactory.biz/cultist-simulator/'>Weather Factory</a>'s incredible <a href='https://store.steampowered.com/app/718670/Cultist_Simulator/'>Cultist Simulator</a> game.",
 	to: "cultist_rose",
-	subArticles: [ "rose_a" ],
+	subArticles: [ "rose_a", "rose_b" ],
 	characters: [ "Rose", "Victor" ],
 	aliases: [ "Assassin", "Assassin" ],
 	elements: [ "Horror", "Intrigue", "Romance" ],
