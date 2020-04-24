@@ -21,7 +21,7 @@
 						justify="center"
 						align="center"
 					>
-						<v-card-title class="pb-0 gold">{{ card.card }}</v-card-title>
+						<v-card-title class="pb-0 gold">{{ card.card }}<span v-if="card.reversed">, reversed</span></v-card-title>
 						<v-row class="pa-2 pt-0">
 							<v-col 
 								cols="12" 

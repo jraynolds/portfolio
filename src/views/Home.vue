@@ -29,11 +29,11 @@ export default {
 			{
 				name: "stories",
 				verb: "write",
-				img: "emperor",
+				img: "Death",
 				card: "Death",
 				reversed: true,
 				back: {
-					reading: "A skeletal figure on a pale horse approaches, stepping lightly over the dead and before the yet living. He carries the five-petaled flower as a standard and ignores all pleas",
+					reading: "A skeletal figure on a pale horse approaches, stepping lightly over the dead and before the yet living. He carries the five-petaled flower as a standard and ignores all pleas.",
 					elements: [ "Resistance to Change", "Personal Transformation", "Precipice" ],
 					description: "I've been writing all my life. Although one day I'll try my hand at historical nonfiction, my true passion is in fantastical fiction. Whether it be Medieval, Victorian, or something stranger, I love it all. But what I love best is the interaction between two characters, two archetypes--different each time, altered by the stroke of the butterfly's wing. Come and read what I have to offer.",
 					to: "/stories"
@@ -42,7 +42,7 @@ export default {
 			{
 				name: "programs",
 				verb: "code",
-				img: "emperor",
+				img: "Two of Pentacles",
 				card: "Two of Pentacles",
 				back: {
 					reading: "A young man dances and juggles two coins, or pentacles. The two are linked by an infinity symbol. Behind him two ships bob on the ocean, large waves buoying them up and down.",
@@ -54,7 +54,7 @@ export default {
 			{
 				name: "websites",
 				verb: "design",
-				img: "emperor",
+				img: "Page of Swords",
 				card: "The Page of Swords",
 				back: {
 					reading: "A young man stands with his sword to the sky.His posture seems indecisive. A breeze tousles his hair and the clouds above move with a speedy wind. The ground is green and growing.",
@@ -66,7 +66,7 @@ export default {
 			{
 				name: "games",
 				verb: "make",
-				img: "emperor",
+				img: "Two of Swords",
 				card: "Two of Swords",
 				back: {
 					reading: "A blindfolded woman in a white robe sits holding two crossed swords. The swords are in perfect balance but her vision is blocked. Behind her a dangerous sea is full of rocky spires.",
