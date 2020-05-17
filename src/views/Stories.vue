@@ -105,6 +105,7 @@ export default {
 			hooks: [
 				{ name: "death_escape", url: "stories" },
 				{ name: "did_heaven", url: "stories" },
+				{ name: "sea_songs", url: "stories" },
 				{ name: "real_magic", url: "stories" },
 				{ name: "harem", url: "stories" },
 				{ name: "heracles", url: "stories" },

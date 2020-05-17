@@ -2,8 +2,10 @@
   <div class="home">
 		<v-row class="px-10">
 			<v-col 
-				sm="6"
-				lg="3"
+				xl="3"
+				lg="6"
+				md="6"
+				sm="12"
 				v-for="card in cards"
 				:key="card.name"
 			>
