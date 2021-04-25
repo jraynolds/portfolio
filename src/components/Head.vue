@@ -20,7 +20,8 @@
 					v-if="link" 
 					tag="div" 
 					class="navLink d-flex justify-center align-center"
-					style="height: 100%;" 
+					style="height: 100%;"
+					:style="$vuetify.breakpoint.width < 700 ? { fontSize: '1.25em' } : { fontSize: '2em' }" 
 					:key="link" 
 					:to="'/' + link"
 				>{{ link.slice(0,1).toUpperCase() + link.slice(1) }}
@@ -86,7 +87,6 @@ export default {
 #navRow {
 	height: 100%;
 	color: gray;
-	font-size: 2em;
 	font-family: 'BluuNext-Bold';
 	user-select: none;
 }

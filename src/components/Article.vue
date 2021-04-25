@@ -34,3 +34,10 @@ p:last-child {
 	margin-bottom: -20px;
 }
 </style>
+
+<style>
+.article p>img {
+	max-width: 100%;
+	height: auto;
+}
+</style>

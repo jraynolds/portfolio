@@ -6,7 +6,8 @@
 				<div class="front">
 					<v-card 
 						color="black" 
-						style="color: gray" 
+						style="color: gray"
+						class="flex-column d-flex" 
 						justify="center" 
 						align="center"
 						height="470"
@@ -18,13 +19,19 @@
 						<v-img 
 							v-else
 							:src="'https://i.imgur.com/OANxEOR.png'"
-							height="300" />
+							height="300"  
+							position="50% 20%" />
+
+						<v-spacer />
+
 						<v-card-title 
 							class="headline justify-center pt-0 gold" 
 							v-html="card.title.split(': ').join(':<br>')" />
-						<v-card-subtitle style="font-style: italic; color: gray;">
-							{{ card.excerpt }}
-						</v-card-subtitle>
+						<v-card-subtitle 
+							class="flex-grow-1"
+							style="font-style: italic; color: gray;"
+							v-html="card.excerpt"
+						/>
 					</v-card>
 				</div>
 
@@ -67,6 +74,11 @@ export default {
 	data: () => ({
 		isHovered: false
 	}),
+	computed: {
+		excerpt() {
+			return this.card.excerpt;
+		}
+	},
 	methods: {
 		cardBackClick(e) {
 			// eslint-disable-next-line no-console

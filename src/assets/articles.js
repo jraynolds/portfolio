@@ -640,8 +640,23 @@ const Midna_lament = {
 }
 
 
+// CODING
 
-
+const Renpy_spriter = {
+	title: "Renpy Spriter",
+	excerpt: "A utility which allows for easy layering of Ren'py sprites for use in Visual Novel development.",
+	summary: "Ren'py's latest advancements in spriting using LayeredImages is a huge step forward for any game developer... but it's not easy to know what exactly you're going to come up with just from the naming conventions.<br/><br/>This, made for the Human Reignition Project, is a step towards fixing that.",
+	img: "renpy.png",
+	to: "renpy_spriter",
+	article: [
+		"Anyone who's used Ren'py--a Visual Novel-making program coded in python--knows that the main time sink comes from arranging and emoting with sprites. Previously, things had to be 'baked' into layers, more or less, but the recent introduction of LayeredImages has fixed that.",
+		"LayeredImages are a programmatic kind of Photoshop-esque layer system which lets Ren'py pull intelligently from the folders of your game--no more defining everything manually.",
+		"There's just one problem... unless you have a Photoshop window open, you have to just 'know' what every layer's name means. And when you have 'happy' and 'joy' faces together, that's not so useful.",
+		"This utility is a step towards fixing that. Separated neatly into emotions, layer types and other details (such as 'eyes open' and 'eyes closed'), it's only for the Human Reignition Project I'm working on... but it's a glimpse of something more.",
+		"<img src='/images/headers/renpy.png'>",
+		"No GitHub link available just yet--not until the work on the game is over and the proprietary assets are removed. But one day... until then, view it on <a href='https://renpy-spriter.netlify.app/'>Netlify</a>!"
+	]
+}
 
 const Glimmer_bot = {
 	title: "Glimmer and Gloom bot",
@@ -652,7 +667,7 @@ const Glimmer_bot = {
 	article: [
 		"Sometimes there's just so much grinding that goes into playing a fun game that you can hardly get to the parts you want to play. My wonderful girlfriend found this to be the case when playing Flight Rising, a dragon breeding browser game that relies on daily flash games to build up treasure troves.",
 		"Here's a bot that plays it for you! I of course can't guarantee it'll be perfectly safe for your account--but that's the price we have to pay sometimes.",
-		"<img width='800' src='/images/headers/glimmer.jpg'>",
+		"<img src='/images/headers/glimmer.jpg'>",
 		"There's more info on my <a href='https://github.com/jraynolds'>github</a>, if you're interested to find it!"
 	]
 }
@@ -668,7 +683,7 @@ const Timeliner = {
 		"Here’s the problem. Entire chapters are devoted to confusing battle descriptions and events happen that seem impossible to reconcile with each other. The Lady of the Lake gets her head chopped off... then comes back?",
 		"A long time ago, reading The Making of the Atomic Bomb, I discovered there are no good programs or utilities for word processing that handle character-based tracking or timelining. Let’s say I wanted to know about only Feynman’s contributions to Atomic Bomb development in the book: would I be able to do something more nuanced than Ctrl+F in Word? Evernote? LibreOffice? OpenOffice? Not so likely.",
 		"So I made something that can handle that. It’s coded in Javascript, p5 and Vue.",
-		"<img width='800' src='/images/headers/timeliner.png'>",
+		"<img src='/images/headers/timeliner.png'>",
 		"If you want to try it out for yourself, be my guest. Just don’t try to put a whole book in there. It’s fast, but not that fast. I’ll continue to update the application. Feel free to follow along on <a href='https://github.com/jraynolds/timeliner'>github</a>, or play with it <a href='https://vue-timeliner.netlify.com/'>online</a>."
 	]
 }
@@ -682,7 +697,7 @@ const Ping_graph = {
 	article: [
 		"If you’ve lived outside of a major city, chances are you know what it’s like to have unpredictable internet. Maybe that means random spikes of >500ms, maybe it means periodic disconnections, or maybe it means your bandwidth is awful. All three were (are) true for me when I lived with my parents, so I searched all around for something that could help me find or prepare for it. I found several utilities that did some of what I wanted, but nothing that did everything–and then they stopped working completely.",
 		"Now that I live in a proper city, I’m finding that the need is still there. It’s a little less pressing, sure, but still worth working on. That’s why I fiddled around with JFreeChart and came up with a little tool that did most of what I wanted it to.",
-		"<img width='800' src='/images/headers/pingGraph.png'>",
+		"<img src='/images/headers/pingGraph.png'>",
 		"Here’s the utility. You can choose from Google, Bing or Localhost for preset addresses to ping, or enter your own URL. You can change how often it pings and even save a log as a text file. You can change its behavior between always-on-top and not, and it’s resizable.",
 		"One other thing: I’ve built in “break points” where the background color will change based on average ping. Fastest is blue, fast is green, slow is yellow, and slowest is orange-red. When no server can be reached, the background turns bright red. You can change these to better suit your average internet ping speed.",
 		"I’ll continue to update the application. Feel free to follow along on <a href='https://github.com/jraynolds/pinggraph/tree/master'>github</a>, or download a runnable .jar from <a href='https://github.com/Jaspirian/pinggraph/raw/master/PingGraph.jar'>this link</a>."
@@ -697,30 +712,30 @@ const Fractal_generator = {
 	to: "fractal_generator",
 	article: [
 		"What’s fun? Fractal, recursively-made objects. What’s more fun than that? Fractal, recursively-made objects that unfold randomly. What’s more fun than even that? Objects that don’t just unfold randomly–they grow in unpredictable but organic ways that the eye finds pleasing. This fun little Java application does just that.",
-		"<img width='800' src='/images/headers/fractalTree.png'>",
+		"<img src='/images/headers/fractalTree.png'>",
 		"It’s in the very early stages, and it’s not much of an application at all. But if you like it, <a href='https://github.com/jraynolds/Fractal-Tree'>come on by</a> and check it out. If nothing else, it sure is relaxing to look at."
 	]
 }
 
 
-
+// GAMES
 
 
 
 const Human_reignition_project = {
 	title: "The Human Reignition Project",
 	excerpt: "A mildly dystopic, near-future visual novel about the isolation technology brings.",
-	summary: "Initially a writer hired to work on the Hitomi character and storyline, I'm now principal coder and a major writer as well.<br>Mid-2020 release expected.",
+	summary: "Initially a writer hired to work on the Hitomi character and storyline, I'm now principal coder and a major writer as well.<br>Mid-2021 release expected.",
 	img: "hrp.jpg",
 	to: "human_reignition_project",
 	article: [
 		"<em>A lonely guy joins a group about reestablishing human connection in the mildly dystopic future--only to discover a deadly plot to uproot the nature of technology.</em>",
 		"Kickstarted with additional support from publisher <a href='https://sekaiproject.com/'>Sekai Project.</a>",
 		"The Human Reignition Project is a Visual Novel coded in Ren'py, boasting 6 disparate storylines each with their own central character. My artistic direction can be most clearly seen in the character--and storyline--of Hitomi, a peppy girl who throws herself into her current passion with an intense and dangerous zeal.",
-		"<img width='500' src='/images/headers/hrp.jpg'>",
+		"<img src='/images/headers/hrp.jpg'>",
 		"Although I began work as a writer for the Hitomi route, my role in the development of the game has expanded over time. I'm now the principal coder as well as a one of the main storyline writers. However, I'm still 100% involved in the Hitomi storyline, so everything in her story is of my creation.",
 		"For more information on this ongoing project you can check the <a href='https://www.kickstarter.com/projects/sekaiproject/the-human-reignition-project-an-english-visual-nov/'>Kickstarter page</a>, which is updated bi-monthly with progress reports and insight into the production of the game. We also have a <a href='https://discordapp.com/invite/PUA5t9s'>Discord group</a>, available to those who aren't Kickstarter backers as well.",
-		"Estimated release of mid-2020."
+		"Estimated release mid-2021."
 	]
 }
 
@@ -748,7 +763,25 @@ const Dragons_teeth = {
 	]
 }
 
+// WEBSITES
 
+const Critical_tools = {
+	title: "Critical Tools",
+	excerpt: "A selection of tools designed to help D&D groups and individuals.",
+	summary: "In the 5th edition of Dungeons and Dragons, designers have tried to make things as simple as possible... but a great deal still needs to be remembered, turn to turn. And it's not exactly easy to know what 'Paralyzed' vs. 'Stunned' means.<br />Here are a selection of tools designed to make playing, and organizing, D&D games.",
+	img: "critical.png",
+	to: "critical_tools",
+	article: [
+		"I love playing Dungeons and Dragons, both as DM and as player. And as I play, I discover there are things I--or my players--would love to have to make their lives easier. So why not make them, and train my skills in the process?",
+		"<img src='/images/articles/session0.png'>",
+		"There are several tools bundled into this website, and likely more to come. Right now it's divided into three: first, a '<a href='https://critical-tools.netlify.app/session-zero/'>Session Zero</a>' form to be filled out on or before the first game you play. Do you want to play something stark, or something simple? Something safe, or something deadly? Making selections generates a code anyone can view, so you can just share the URL to discuss your preferences.",
+		"<img src='/images/headers/critical.png'>",
+		"Second is a selection of conditions which can be a real bear to distinguish--or to keep track of. Inspired by <a href='https://crobi.github.io/dnd5e-quickref/preview/quickref.html'>Crobi's 5e reference</a>, this summarizes the conditions and effects which might be on you, or on one of your enemies. Keep track of what's affecting you by clicking the requisite buttons by <a href='https://critical-tools.netlify.app/conditions/'>visiting the utility</a>.",
+		"<img src='/images/articles/generator.png'>",
+		"Finally, something a little simpler. I enjoy creating characters on the fly, but in order to make them fleshed out enough to feel like they're truly living and breathing, I've come up with a little generation method relying on the Tarot. The Major Arcana determines their Campbellian archetype, while a random card determines their personality and behavior. Using the same card flipping from this website, <a href='https://critical-tools.netlify.app/tarot-character/'>give it a try</a>!",
+		"Explore these tools yourself on <a href='https://critical-tools.netlify.app/'>netlify</a>."
+	]
+}
 
 const Vue_calendar = {
 	title: "Vue Calendar",
@@ -759,7 +792,7 @@ const Vue_calendar = {
 	article: [
 		"Player-run events can be one of the things that brings life to an MMO--and makes it feel real, present, and interactive.",
 		"The only problem is that becoming aware of these events, and knowing how to get to them, is often surprisingly difficult. And any good event is bound to have people who want to attend but don't know how, or simply forget!",
-		"<img width='500' src='/images/headers/vueCalendar.png'>",
+		"<img src='/images/headers/vueCalendar.png'>",
 		"Here's a little calendar that hopefully will take some of the burden away from the event creator. Coded in Vue, it's designed for the MMO Final Fantasy XIV, which suffers from some of these problems despite its vibrant and thriving playerbase.",
 		"Find it on <a href='https://github.com/jraynolds/eorzeancalendar'>github</a>, or explore it yourself on <a href='https://eorzeancalendar.netlify.com/'>netlify</a>."
 	]
@@ -796,6 +829,7 @@ const articles = {
 	midna_lament: Midna_lament,
 
 
+	renpy_spriter: Renpy_spriter,
 	glimmer_bot: Glimmer_bot,
 	timeliner: Timeliner,
 	ping_graph: Ping_graph,
@@ -805,7 +839,7 @@ const articles = {
 	human_reignition_project: Human_reignition_project,
 	dragons_teeth: Dragons_teeth,
 
-
+	critical_tools: Critical_tools,
 	vue_calendar: Vue_calendar,
 }
 

@@ -2,10 +2,7 @@
   <div class="home">
 		<v-row class="px-10">
 			<v-col 
-				xl="3"
-				lg="6"
-				md="6"
-				sm="12"
+				:cols="cols"
 				v-for="card in cards"
 				:key="card.name"
 			>
@@ -25,7 +22,6 @@ export default {
   components: {
 		MainCard
 	},
-	
 	data: () => ({
 		cards: [
 			{
@@ -62,7 +58,7 @@ export default {
 					reading: "A young man stands with his sword to the sky.His posture seems indecisive. A breeze tousles his hair and the clouds above move with a speedy wind. The ground is green and growing.",
 					elements: [ "New ideas", "Curiosity", "New Communication" ],
 					description: "The problem with programming is that often, what goes on is entirely underneath the hood. Web design, especially app design, is something very different: what you see is what you get, mostly. Or at least what you do will manifest in visible ways both to you and to others. And it's a pleasure to show off what you've done.",
-					to: "/webdesign"
+					to: "/websites"
 				}
 			},
 			{
@@ -79,5 +75,13 @@ export default {
 			}
 		],
 	}),
+	computed: {
+		cols() {
+			// if (this.$vuetify.breakpoint.xs) return 12;
+			if (this.$vuetify.breakpoint.width < 900) return 12;
+			else if (this.$vuetify.breakpoint.width < 1750) return 6;
+			else return 3;
+		}
+	}
 }
 </script>

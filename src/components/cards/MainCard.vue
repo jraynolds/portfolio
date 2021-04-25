@@ -7,10 +7,12 @@
 						<v-img 
 							v-if="card.img"
 							:src="'/images/' + card.img + '.png'"
-							:style="[card.reversed ? { transform: 'rotate(180deg)'} : {}]" />
+							:style="[card.reversed ? { transform: 'rotate(180deg)'} : {}]" 
+						/>
 						<v-img 
 							v-else
-							:src="'https://i.imgur.com/OANxEOR.png'" />
+							:src="'https://i.imgur.com/OANxEOR.png'" 
+						/>
 						<v-card-title class="headline justify-center pt-0">I {{ card.verb }} {{ card.name }}.</v-card-title>
 					</v-card>
 				</div>

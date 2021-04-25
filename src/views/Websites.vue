@@ -37,6 +37,7 @@ export default {
 			articles: articles,
 			collections: collections,
 			websites: [
+				{ name: "critical_tools", url: "websites" },
 				{ name: "timeliner", url: "websites" },
 				{ name: "vue_calendar", url: "websites" },
 			]

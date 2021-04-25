@@ -38,6 +38,7 @@ export default {
 			articles: articles,
 			collections: collections,
 			coding: [
+				{ name: "renpy_spriter", url: "coding" },
 				{ name: "glimmer_bot", url: "coding" },
 				{ name: "timeliner", url: "coding" },
 				{ name: "ping_graph", url: "coding" },

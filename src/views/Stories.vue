@@ -88,13 +88,13 @@ export default {
 			collections: collections,
 			featured: [
 				{ name: "cultist_caro", url: "stories" },
-				{ name: "zelda_songs", url: "collections" },
-				{ name: "american_disbelief", url: "stories" }
+				{ name: "american_disbelief", url: "stories" },
+				{ name: "zelda_songs", url: "collections" }
 			],
 			originals: [
 				{ name: "american_disbelief", url: "stories" },
 				{ name: "real_magic", url: "stories" },
-				{ name: "harem", url: "stories" }
+				{ name: "sea_songs", url: "stories" },
 			],
 			fanfics: [
 				{ name: "cultist_caro", url: "stories" },

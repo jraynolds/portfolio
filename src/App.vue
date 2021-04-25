@@ -5,7 +5,13 @@
     <v-content>
 			<v-row justify="center" class="pt-8 mb-n6" v-if="pageTitle">
 				<transition name="slide-fade" mode="out-in">
-					<h1 class="gold" style="text-align: center;" :key="pageTitle">{{ pageTitle }}</h1>
+					<h1 
+						class="gold" 
+						style="text-align: center; -webkit-text-stroke: 2px black; font-size: 3em;" 
+						:key="pageTitle"
+					>
+						{{ pageTitle }}
+					</h1>
 				</transition>
 			</v-row>
 
@@ -40,7 +46,9 @@ export default {
 			let title = null;
 			if (this.$route.meta.title) title = this.$route.meta.title;
 			if (this.$route.params.article) title = this.$route.meta.title;
-			if (this.$route.params.collection) title = this.collections[this.$route.params.collection].title;
+			if (this.$route.params.collection) {
+				title = this.collections[this.$route.params.collection].title;
+			}
 			
 			if (title) document.title = `jraynolds: ${title}`;
 			return title;
@@ -50,6 +58,10 @@ export default {
 </script>
 
 <style>
+.v-card__title {
+	word-break: break-word !important;
+}
+
 .fade-enter-active,
 .fade-leave-active {
 	transition-duration: 0.3s;
